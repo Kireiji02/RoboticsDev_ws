@@ -35,6 +35,7 @@ class ControllerNode(Node):
         self.feedback = 0.0
         self.pos_feedback = 0.0
         self.mart = "HI"
+        self.tim = "Hi"
 
         # Add callback for parameter changes
         self.add_on_set_parameters_callback(self.set_param_callback)
