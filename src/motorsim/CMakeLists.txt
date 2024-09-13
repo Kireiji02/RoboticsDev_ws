@@ -33,6 +33,7 @@ install(PROGRAMS
   scripts/controller_node.py
   scripts/encoder_node.py
   scripts/scheduler_node.py
+  scripts/random.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
