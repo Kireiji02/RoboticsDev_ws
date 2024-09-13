@@ -71,7 +71,7 @@ class DcMotorNode(Node):
         return SetParametersResult(successful=True)
 
     def voltage_callback(self, msg : Float64):
-        self.Vin = self.motor.IM_compute(msg.data,0.0)
+        self.Vin = msg.data
 
     def timer_callback(self):
         qd = self.motor.FM_compute(self.Vin, 0.0)
