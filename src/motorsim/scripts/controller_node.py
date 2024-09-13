@@ -70,7 +70,7 @@ class ControllerNode(Node):
     #     self.feedback = msg.angular.z
 
     def timer_callback(self):
-        error = self.target - self.feedback
+        error = self.target - self.pos_feedback
         msg = Float64()
         msg.data = self.pid.compute(error)
         self.signal_publisher.publish(msg)
