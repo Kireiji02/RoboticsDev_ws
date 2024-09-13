@@ -34,6 +34,7 @@ install(PROGRAMS
   scripts/encoder_node.py
   scripts/scheduler_node.py
   scripts/random.py
+  scripts/disturbance_node.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
