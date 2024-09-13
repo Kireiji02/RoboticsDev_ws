@@ -1,0 +1,53 @@
+[  0%] Built target ament_cmake_python_copy_motorsim
+[100%] Built target cpp_node_test
+running egg_info
+writing manifest file 'motorsim.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_motorsim_egg
+-- Install configuration: ""
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/environment/pythonpath.sh
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/environment/pythonpath.dsv
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim/lib/python3.10/site-packages/motorsim-0.0.0-py3.10.egg-info
+-- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/lib/python3.10/site-packages/motorsim-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/lib/python3.10/site-packages/motorsim-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/lib/python3.10/site-packages/motorsim-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/lib/python3.10/site-packages/motorsim-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim/lib/python3.10/site-packages/motorsim
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim/lib/python3.10/site-packages/motorsim/__init__.py
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim/lib/python3.10/site-packages/motorsim/pid_controller.py
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim/lib/python3.10/site-packages/motorsim/dc_motor_model.py
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim/lib/python3.10/site-packages/motorsim/dummy_module.py
+Listing '/home/kireiji/RoboticsDev_ws/install/motorsim/lib/python3.10/site-packages/motorsim'...
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim/lib/motorsim/dummy_script.py
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim/lib/motorsim/dc_motor_node.py
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim/lib/motorsim/motorsim_node.py
+-- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/lib/motorsim/controller_node.py
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim/lib/motorsim/encoder_node.py
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim/lib/motorsim/scheduler_node.py
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim/lib/motorsim/cpp_node_test
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/scripts
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/scripts/motorsim_node.py
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/scripts/dummy_script.py
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/scripts/scheduler_node.py
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/scripts/encoder_node.py
+-- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/scripts/controller_node.py
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/scripts/dc_motor_node.py
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/motorsim
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/motorsim/__init__.py
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/motorsim/pid_controller.py
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/motorsim/dc_motor_model.py
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/motorsim/dummy_module.py
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim/share/ament_index/resource_index/package_run_dependencies/motorsim
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim/share/ament_index/resource_index/parent_prefix_path/motorsim
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/environment/ament_prefix_path.sh
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/environment/path.sh
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/environment/path.dsv
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/local_setup.bash
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/local_setup.sh
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/local_setup.zsh
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/local_setup.dsv
+-- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/package.dsv
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim/share/ament_index/resource_index/packages/motorsim
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/cmake/motorsimConfig.cmake
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/cmake/motorsimConfig-version.cmake
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/package.xml

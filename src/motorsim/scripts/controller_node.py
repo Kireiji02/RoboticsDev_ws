@@ -64,8 +64,8 @@ class ControllerNode(Node):
     def pos_fb_callback(self, msg:Float64):
         self.pos_feedback = msg.data
 
-    def target_callback(self, msg: Twist):
-        self.pos_target = msg.angular.z
+    def target_callback(self, msg: Float64):
+        self.pos_target = msg.data
 
     # def fb_callback(self, msg: Twist):
     #     self.feedback = msg.angular.z
@@ -73,9 +73,10 @@ class ControllerNode(Node):
     def timer_callback(self):
         error = self.pos_target - self.pos_feedback
         msg = Float64()
-        msg.data = self.pid.compute(error)
+        # msg.data = self.pid.compute(error)
+        msg.data = error
         self.signal_publisher.publish(msg)
-        self.get_logger().info(f'Pos: {self.pos_feedback} rad ')
+        self.get_logger().info(f'Pos: {self.pos_feedback} rad \n {error}')
 
 def main(args=None):
     rclpy.init(args=args)
