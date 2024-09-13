@@ -1,0 +1,176 @@
+[0.058s] Invoking command in '/home/kireiji/RoboticsDev_ws/build/controller_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kireiji/RoboticsDev_ws/install/launch_testing_examples:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_pointcloud_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_subscriber:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_service:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_guard_conditions:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_executors:/home/kireiji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/kireiji/RoboticsDev_ws/build/controller_interfaces -- -j16 -l16
+[0.756s] [35m[1mConsolidate compiler generated dependencies of target controller_interfaces__rosidl_generator_c[0m
+[0.757s] [ 10%] Built target controller_interfaces__rosidl_generator_c
+[0.757s] [ 12%] Built target controller_interfaces__cpp
+[0.757s] [35m[1mConsolidate compiler generated dependencies of target controller_interfaces__rosidl_typesupport_c[0m
+[0.757s] [35m[1mConsolidate compiler generated dependencies of target controller_interfaces__rosidl_typesupport_fastrtps_c[0m
+[0.757s] [35m[1mConsolidate compiler generated dependencies of target controller_interfaces__rosidl_typesupport_introspection_c[0m
+[0.757s] [35m[1mConsolidate compiler generated dependencies of target controller_interfaces__rosidl_typesupport_introspection_cpp[0m
+[0.757s] [35m[1mConsolidate compiler generated dependencies of target controller_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[0.757s] [35m[1mConsolidate compiler generated dependencies of target controller_interfaces__rosidl_typesupport_cpp[0m
+[0.757s] [ 12%] Built target ament_cmake_python_copy_controller_interfaces
+[0.757s] [ 23%] Built target controller_interfaces__rosidl_typesupport_fastrtps_c
+[0.757s] [ 33%] Built target controller_interfaces__rosidl_typesupport_c
+[0.757s] [ 43%] Built target controller_interfaces__rosidl_typesupport_introspection_cpp
+[0.757s] [ 53%] Built target controller_interfaces__rosidl_typesupport_introspection_c
+[0.757s] [ 64%] Built target controller_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.757s] [ 74%] Built target controller_interfaces__rosidl_typesupport_cpp
+[0.757s] [ 74%] Built target controller_interfaces
+[0.757s] [ 76%] Built target controller_interfaces__py
+[0.757s] [35m[1mConsolidate compiler generated dependencies of target controller_interfaces__rosidl_generator_py[0m
+[0.758s] [ 84%] Built target controller_interfaces__rosidl_generator_py
+[0.758s] [35m[1mConsolidate compiler generated dependencies of target controller_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[0.758s] [35m[1mConsolidate compiler generated dependencies of target controller_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.758s] [35m[1mConsolidate compiler generated dependencies of target controller_interfaces__rosidl_typesupport_c__pyext[0m
+[0.758s] [ 89%] Built target controller_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.758s] [ 94%] Built target controller_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.758s] [100%] Built target controller_interfaces__rosidl_typesupport_c__pyext
+[0.758s] running egg_info
+[0.758s] writing manifest file 'controller_interfaces.egg-info/SOURCES.txt'
+[0.758s] [100%] Built target ament_cmake_python_build_controller_interfaces_egg
+[0.811s] Invoked command in '/home/kireiji/RoboticsDev_ws/build/controller_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kireiji/RoboticsDev_ws/install/launch_testing_examples:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_pointcloud_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_subscriber:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_service:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_guard_conditions:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_executors:/home/kireiji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/kireiji/RoboticsDev_ws/build/controller_interfaces -- -j16 -l16
+[0.943s] Invoking command in '/home/kireiji/RoboticsDev_ws/build/controller_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kireiji/RoboticsDev_ws/install/launch_testing_examples:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_pointcloud_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_subscriber:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_service:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_guard_conditions:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_executors:/home/kireiji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/kireiji/RoboticsDev_ws/build/controller_interfaces
+[0.953s] -- Install configuration: ""
+[0.953s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/ament_index/resource_index/rosidl_interfaces/controller_interfaces
+[0.953s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces
+[0.953s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg
+[0.953s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.953s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv
+[0.953s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/set_param.h
+[0.953s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail
+[0.953s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_param__functions.h
+[0.953s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_param__struct.h
+[0.953s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_param__functions.c
+[0.954s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_target__type_support.h
+[0.954s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_param__type_support.h
+[0.954s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_target__struct.h
+[0.955s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_target__functions.h
+[0.955s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_target__functions.c
+[0.955s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/set_target.h
+[0.955s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/environment/library_path.sh
+[0.955s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/environment/library_path.dsv
+[0.955s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_generator_c.so
+[0.955s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces
+[0.955s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg
+[0.956s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.956s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv
+[0.956s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail
+[0.956s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_param__rosidl_typesupport_fastrtps_c.h
+[0.956s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_target__rosidl_typesupport_fastrtps_c.h
+[0.956s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.956s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces
+[0.956s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv
+[0.956s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/set_target.hpp
+[0.956s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail
+[0.956s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_target__traits.hpp
+[0.956s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_param__builder.hpp
+[0.956s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_target__struct.hpp
+[0.957s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_target__builder.hpp
+[0.957s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_param__traits.hpp
+[0.957s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_param__struct.hpp
+[0.957s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/set_param.hpp
+[0.957s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces
+[0.957s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg
+[0.957s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.957s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv
+[0.957s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail
+[0.957s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_target__rosidl_typesupport_fastrtps_cpp.hpp
+[0.957s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/dds_fastrtps
+[0.957s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_param__rosidl_typesupport_fastrtps_cpp.hpp
+[0.957s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.958s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces
+[0.958s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg
+[0.958s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.958s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv
+[0.958s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail
+[0.958s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_param__type_support.c
+[0.958s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_target__rosidl_typesupport_introspection_c.h
+[0.958s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_target__type_support.c
+[0.958s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_param__rosidl_typesupport_introspection_c.h
+[0.958s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_introspection_c.so
+[0.958s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_c.so
+[0.958s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces
+[0.958s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv
+[0.958s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail
+[0.958s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_param__rosidl_typesupport_introspection_cpp.hpp
+[0.958s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_target__rosidl_typesupport_introspection_cpp.hpp
+[0.959s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_param__type_support.cpp
+[0.959s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_target__type_support.cpp
+[0.959s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.959s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_cpp.so
+[0.959s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/environment/pythonpath.sh
+[0.959s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/environment/pythonpath.dsv
+[0.959s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/lib/python3.10/site-packages/controller_interfaces-0.0.0-py3.10.egg-info
+[0.959s] -- Installing: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/lib/python3.10/site-packages/controller_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[0.959s] -- Installing: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/lib/python3.10/site-packages/controller_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.959s] -- Installing: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/lib/python3.10/site-packages/controller_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[0.959s] -- Installing: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/lib/python3.10/site-packages/controller_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.959s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/lib/python3.10/site-packages/controller_interfaces
+[0.959s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/lib/python3.10/site-packages/controller_interfaces/__init__.py
+[0.959s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/lib/python3.10/site-packages/controller_interfaces/_controller_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[0.959s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/lib/python3.10/site-packages/controller_interfaces/_controller_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.960s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/lib/python3.10/site-packages/controller_interfaces/controller_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.960s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/lib/python3.10/site-packages/controller_interfaces/libcontroller_interfaces__rosidl_generator_py.so
+[0.960s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/lib/python3.10/site-packages/controller_interfaces/controller_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.960s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/lib/python3.10/site-packages/controller_interfaces/srv
+[0.960s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/lib/python3.10/site-packages/controller_interfaces/srv/_set_target.py
+[0.960s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/lib/python3.10/site-packages/controller_interfaces/srv/__init__.py
+[0.960s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/lib/python3.10/site-packages/controller_interfaces/srv/_set_target_s.c
+[0.960s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/lib/python3.10/site-packages/controller_interfaces/srv/_set_param.py
+[0.960s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/lib/python3.10/site-packages/controller_interfaces/srv/_set_param_s.c
+[0.960s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/lib/python3.10/site-packages/controller_interfaces/controller_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.960s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/lib/python3.10/site-packages/controller_interfaces/_controller_interfaces_s.ep.rosidl_typesupport_c.c
+[0.981s] Listing '/home/kireiji/RoboticsDev_ws/install/controller_interfaces/lib/python3.10/site-packages/controller_interfaces'...
+[0.981s] Listing '/home/kireiji/RoboticsDev_ws/install/controller_interfaces/lib/python3.10/site-packages/controller_interfaces/srv'...
+[0.985s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/lib/python3.10/site-packages/controller_interfaces/controller_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.985s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/lib/python3.10/site-packages/controller_interfaces/controller_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.986s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/lib/python3.10/site-packages/controller_interfaces/controller_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.986s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_generator_py.so
+[0.986s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/srv/SetParam.idl
+[0.986s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/srv/SetTarget.idl
+[0.986s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/srv/SetParam.srv
+[0.986s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/srv/SetParam_Request.msg
+[0.986s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/srv/SetParam_Response.msg
+[0.986s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/srv/SetTarget.srv
+[0.986s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/srv/SetTarget_Request.msg
+[0.986s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/srv/SetTarget_Response.msg
+[0.987s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/ament_index/resource_index/package_run_dependencies/controller_interfaces
+[0.987s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/ament_index/resource_index/parent_prefix_path/controller_interfaces
+[0.987s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/environment/ament_prefix_path.sh
+[0.987s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/environment/ament_prefix_path.dsv
+[0.987s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/environment/path.sh
+[0.987s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/environment/path.dsv
+[0.987s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/local_setup.bash
+[0.987s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/local_setup.sh
+[0.987s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/local_setup.zsh
+[0.987s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/local_setup.dsv
+[0.987s] -- Installing: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/package.dsv
+[0.987s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/ament_index/resource_index/packages/controller_interfaces
+[0.987s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/cmake/export_controller_interfaces__rosidl_generator_cExport.cmake
+[0.987s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/cmake/export_controller_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.987s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/cmake/export_controller_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[0.987s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/cmake/export_controller_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.988s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/cmake/export_controller_interfaces__rosidl_generator_cppExport.cmake
+[0.988s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/cmake/export_controller_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.988s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/cmake/export_controller_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.988s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.988s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.988s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfaces__rosidl_typesupport_cExport.cmake
+[0.988s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.988s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.988s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.988s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfaces__rosidl_typesupport_cppExport.cmake
+[0.988s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.988s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/cmake/export_controller_interfaces__rosidl_generator_pyExport.cmake
+[0.988s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/cmake/export_controller_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[0.988s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.988s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.988s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.988s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.988s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.988s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.989s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.989s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfacesConfig.cmake
+[0.989s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfacesConfig-version.cmake
+[0.989s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/controller_interfaces/share/controller_interfaces/package.xml
+[1.061s] Invoked command in '/home/kireiji/RoboticsDev_ws/build/controller_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kireiji/RoboticsDev_ws/install/launch_testing_examples:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_pointcloud_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_subscriber:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_service:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_guard_conditions:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_executors:/home/kireiji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/kireiji/RoboticsDev_ws/build/controller_interfaces

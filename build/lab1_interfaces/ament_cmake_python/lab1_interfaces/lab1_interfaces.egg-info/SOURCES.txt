@@ -4,3 +4,5 @@ lab1_interfaces.egg-info/PKG-INFO
 lab1_interfaces.egg-info/SOURCES.txt
 lab1_interfaces.egg-info/dependency_links.txt
 lab1_interfaces.egg-info/top_level.txt
+lab1_interfaces/srv/__init__.py
+lab1_interfaces/srv/_set_noise.py

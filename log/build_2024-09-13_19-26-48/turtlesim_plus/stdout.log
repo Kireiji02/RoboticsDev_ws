@@ -1,0 +1,56 @@
+Built target ament_cmake_python_copy_turtlesim_plus
+running egg_info
+writing manifest file 'turtlesim_plus.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_turtlesim_plus_egg
+-- Install configuration: ""
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/turtlesim_plus/share/turtlesim_plus/environment/pythonpath.sh
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/turtlesim_plus/share/turtlesim_plus/environment/pythonpath.dsv
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/turtlesim_plus/lib/python3.10/site-packages/turtlesim_plus-1.0.0-py3.10.egg-info
+-- Installing: /home/kireiji/RoboticsDev_ws/install/turtlesim_plus/lib/python3.10/site-packages/turtlesim_plus-1.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/kireiji/RoboticsDev_ws/install/turtlesim_plus/lib/python3.10/site-packages/turtlesim_plus-1.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/kireiji/RoboticsDev_ws/install/turtlesim_plus/lib/python3.10/site-packages/turtlesim_plus-1.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/kireiji/RoboticsDev_ws/install/turtlesim_plus/lib/python3.10/site-packages/turtlesim_plus-1.0.0-py3.10.egg-info/SOURCES.txt
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/turtlesim_plus/lib/python3.10/site-packages/turtlesim_plus
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/turtlesim_plus/lib/python3.10/site-packages/turtlesim_plus/__init__.py
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/turtlesim_plus/lib/python3.10/site-packages/turtlesim_plus/ros2_plugins.py
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/turtlesim_plus/lib/python3.10/site-packages/turtlesim_plus/entity.py
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/turtlesim_plus/lib/python3.10/site-packages/turtlesim_plus/image
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/turtlesim_plus/lib/python3.10/site-packages/turtlesim_plus/image/turtle
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/turtlesim_plus/lib/python3.10/site-packages/turtlesim_plus/image/turtle/bouncy.png
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/turtlesim_plus/lib/python3.10/site-packages/turtlesim_plus/image/turtle/foxy.png
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/turtlesim_plus/lib/python3.10/site-packages/turtlesim_plus/image/turtle/crystal.png
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/turtlesim_plus/lib/python3.10/site-packages/turtlesim_plus/image/turtle/galactic.png
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/turtlesim_plus/lib/python3.10/site-packages/turtlesim_plus/image/turtle/otto.png
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/turtlesim_plus/lib/python3.10/site-packages/turtlesim_plus/image/turtle/eloquent.png
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/turtlesim_plus/lib/python3.10/site-packages/turtlesim_plus/image/turtle/dashing.png
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/turtlesim_plus/lib/python3.10/site-packages/turtlesim_plus/image/turtle/humble.png
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/turtlesim_plus/lib/python3.10/site-packages/turtlesim_plus/image/turtle/rolling.png
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/turtlesim_plus/lib/python3.10/site-packages/turtlesim_plus/image/turtle/ardent.png
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/turtlesim_plus/lib/python3.10/site-packages/turtlesim_plus/image/object
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/turtlesim_plus/lib/python3.10/site-packages/turtlesim_plus/image/object/pizza.png
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/turtlesim_plus/lib/python3.10/site-packages/turtlesim_plus/image/object/parcel.png
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/turtlesim_plus/lib/python3.10/site-packages/turtlesim_plus/image/map
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/turtlesim_plus/lib/python3.10/site-packages/turtlesim_plus/image/map/map.png
+Listing '/home/kireiji/RoboticsDev_ws/install/turtlesim_plus/lib/python3.10/site-packages/turtlesim_plus'...
+Listing '/home/kireiji/RoboticsDev_ws/install/turtlesim_plus/lib/python3.10/site-packages/turtlesim_plus/image'...
+Listing '/home/kireiji/RoboticsDev_ws/install/turtlesim_plus/lib/python3.10/site-packages/turtlesim_plus/image/map'...
+Listing '/home/kireiji/RoboticsDev_ws/install/turtlesim_plus/lib/python3.10/site-packages/turtlesim_plus/image/object'...
+Listing '/home/kireiji/RoboticsDev_ws/install/turtlesim_plus/lib/python3.10/site-packages/turtlesim_plus/image/turtle'...
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/turtlesim_plus/lib/turtlesim_plus/turtlesim_plus_node.py
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/turtlesim_plus/lib/turtlesim_plus/pizza_on_click.py
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/turtlesim_plus/share/turtlesim_plus
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/turtlesim_plus/share/ament_index/resource_index/package_run_dependencies/turtlesim_plus
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/turtlesim_plus/share/ament_index/resource_index/parent_prefix_path/turtlesim_plus
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/turtlesim_plus/share/turtlesim_plus/environment/ament_prefix_path.sh
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/turtlesim_plus/share/turtlesim_plus/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/turtlesim_plus/share/turtlesim_plus/environment/path.sh
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/turtlesim_plus/share/turtlesim_plus/environment/path.dsv
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/turtlesim_plus/share/turtlesim_plus/local_setup.bash
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/turtlesim_plus/share/turtlesim_plus/local_setup.sh
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/turtlesim_plus/share/turtlesim_plus/local_setup.zsh
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/turtlesim_plus/share/turtlesim_plus/local_setup.dsv
+-- Installing: /home/kireiji/RoboticsDev_ws/install/turtlesim_plus/share/turtlesim_plus/package.dsv
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/turtlesim_plus/share/ament_index/resource_index/packages/turtlesim_plus
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/turtlesim_plus/share/turtlesim_plus/cmake/turtlesim_plusConfig.cmake
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/turtlesim_plus/share/turtlesim_plus/cmake/turtlesim_plusConfig-version.cmake
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/turtlesim_plus/share/turtlesim_plus/package.xml

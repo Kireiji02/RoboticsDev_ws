@@ -1,0 +1,37 @@
+[35m[1mConsolidate compiler generated dependencies of target cpp_node_test[0m
+[100%] Built target cpp_node_test
+[100%] Built target ament_cmake_python_copy_lecture2
+running egg_info
+writing manifest file 'lecture2.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_lecture2_egg
+-- Install configuration: ""
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture2/share/lecture2/environment/pythonpath.sh
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture2/share/lecture2/environment/pythonpath.dsv
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture2/lib/python3.10/site-packages/lecture2-0.0.0-py3.10.egg-info
+-- Installing: /home/kireiji/RoboticsDev_ws/install/lecture2/lib/python3.10/site-packages/lecture2-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/kireiji/RoboticsDev_ws/install/lecture2/lib/python3.10/site-packages/lecture2-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/kireiji/RoboticsDev_ws/install/lecture2/lib/python3.10/site-packages/lecture2-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/kireiji/RoboticsDev_ws/install/lecture2/lib/python3.10/site-packages/lecture2-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture2/lib/python3.10/site-packages/lecture2
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture2/lib/python3.10/site-packages/lecture2/__init__.py
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture2/lib/python3.10/site-packages/lecture2/dummy_module.py
+Listing '/home/kireiji/RoboticsDev_ws/install/lecture2/lib/python3.10/site-packages/lecture2'...
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture2/lib/lecture2/dummy_script.py
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture2/lib/lecture2/manual_teleop.py
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture2/lib/lecture2/cpp_node_test
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture2/share/lecture2
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture2/share/ament_index/resource_index/package_run_dependencies/lecture2
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture2/share/ament_index/resource_index/parent_prefix_path/lecture2
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture2/share/lecture2/environment/ament_prefix_path.sh
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture2/share/lecture2/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture2/share/lecture2/environment/path.sh
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture2/share/lecture2/environment/path.dsv
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture2/share/lecture2/local_setup.bash
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture2/share/lecture2/local_setup.sh
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture2/share/lecture2/local_setup.zsh
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture2/share/lecture2/local_setup.dsv
+-- Installing: /home/kireiji/RoboticsDev_ws/install/lecture2/share/lecture2/package.dsv
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture2/share/ament_index/resource_index/packages/lecture2
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture2/share/lecture2/cmake/lecture2Config.cmake
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture2/share/lecture2/cmake/lecture2Config-version.cmake
+-- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture2/share/lecture2/package.xml

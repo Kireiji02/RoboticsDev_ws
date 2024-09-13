@@ -13,9 +13,11 @@
 /home/kireiji/RoboticsDev_ws/install/motorsim/lib/motorsim/motorsim_node.py
 /home/kireiji/RoboticsDev_ws/install/motorsim/lib/motorsim/controller_node.py
 /home/kireiji/RoboticsDev_ws/install/motorsim/lib/motorsim/encoder_node.py
+/home/kireiji/RoboticsDev_ws/install/motorsim/lib/motorsim/scheduler_node.py
 /home/kireiji/RoboticsDev_ws/install/motorsim/lib/motorsim/cpp_node_test
 /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/scripts/motorsim_node.py
 /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/scripts/dummy_script.py
+/home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/scripts/scheduler_node.py
 /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/scripts/encoder_node.py
 /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/scripts/controller_node.py
 /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/scripts/dc_motor_node.py

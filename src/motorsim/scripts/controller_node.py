@@ -20,7 +20,7 @@ class ControllerNode(Node):
         self.freq = 100.0
 
         self.create_subscription(Twist, "cmd_vel", self.cmd_callback, 10)
-        self.create_subscription(Twist, "motor_speed", self.fb_callback, 10)
+        # self.create_subscription(Twist, "motor_speed", self.fb_callback, 10)
         self.create_subscription(Float64, "motor_position", self.pos_fb_callback, 10)
         self.signal_publisher = self.create_publisher(Float64, "control_signal", 10)
         self.create_timer(1.0 / self.freq, self.timer_callback)
@@ -32,7 +32,7 @@ class ControllerNode(Node):
 
         self.pid = PIDController(self.Kp, self.Ki, self.Kd, self.U_max)
         self.target = 0.0
-        self.feedback = 0.0
+        # self.feedback = 0.0
         self.pos_feedback = 0.0
       
         # Add callback for parameter changes
@@ -66,15 +66,15 @@ class ControllerNode(Node):
     def cmd_callback(self, msg: Twist):
         self.target = msg.angular.z
 
-    def fb_callback(self, msg: Twist):
-        self.feedback = msg.angular.z
+    # def fb_callback(self, msg: Twist):
+    #     self.feedback = msg.angular.z
 
     def timer_callback(self):
         error = self.target - self.feedback
         msg = Float64()
         msg.data = self.pid.compute(error)
         self.signal_publisher.publish(msg)
-        self.get_logger().info(f'\n Velo: {self.feedback} rad/s \n Pos: {self.pos_feedback} rad ')
+        self.get_logger().info(f'Pos: {self.pos_feedback} rad ')
 
 def main(args=None):
     rclpy.init(args=args)

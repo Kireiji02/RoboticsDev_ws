@@ -20,7 +20,7 @@ class EncoderNode(Node):
         self.fb_position = 0.0
 
     def fb_callback(self, msg: Twist):
-        self.fb_position = msg.angular.z * (1.0/self.freq)
+        self.fb_position += msg.angular.z * (1.0/self.freq)
 
     def timer_callback(self):
         msg = Float64()

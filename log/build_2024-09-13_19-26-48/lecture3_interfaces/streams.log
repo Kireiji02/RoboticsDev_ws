@@ -1,0 +1,186 @@
+[0.061s] Invoking command in '/home/kireiji/RoboticsDev_ws/build/lecture3_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kireiji/RoboticsDev_ws/install/launch_testing_examples:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_pointcloud_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_subscriber:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_service:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_guard_conditions:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_executors:/home/kireiji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/kireiji/RoboticsDev_ws/build/lecture3_interfaces -- -j16 -l16
+[0.749s] [35m[1mConsolidate compiler generated dependencies of target lecture3_interfaces__rosidl_generator_c[0m
+[0.749s] [ 10%] Built target lecture3_interfaces__rosidl_generator_c
+[0.749s] [ 12%] Built target lecture3_interfaces__cpp
+[0.749s] [35m[1mConsolidate compiler generated dependencies of target lecture3_interfaces__rosidl_typesupport_c[0m
+[0.749s] [35m[1mConsolidate compiler generated dependencies of target lecture3_interfaces__rosidl_typesupport_introspection_c[0m
+[0.749s] [35m[1mConsolidate compiler generated dependencies of target lecture3_interfaces__rosidl_typesupport_cpp[0m
+[0.749s] [35m[1mConsolidate compiler generated dependencies of target lecture3_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[0.749s] [ 12%] Built target ament_cmake_python_copy_lecture3_interfaces
+[0.749s] [35m[1mConsolidate compiler generated dependencies of target lecture3_interfaces__rosidl_typesupport_fastrtps_c[0m
+[0.749s] [35m[1mConsolidate compiler generated dependencies of target lecture3_interfaces__rosidl_typesupport_introspection_cpp[0m
+[0.749s] [ 23%] Built target lecture3_interfaces__rosidl_typesupport_introspection_c
+[0.749s] [ 33%] Built target lecture3_interfaces__rosidl_typesupport_c
+[0.749s] [ 43%] Built target lecture3_interfaces__rosidl_typesupport_cpp
+[0.750s] [ 53%] Built target lecture3_interfaces__rosidl_typesupport_introspection_cpp
+[0.750s] [ 64%] Built target lecture3_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.750s] [ 74%] Built target lecture3_interfaces__rosidl_typesupport_fastrtps_c
+[0.750s] [ 74%] Built target lecture3_interfaces
+[0.750s] [ 76%] Built target lecture3_interfaces__py
+[0.750s] [35m[1mConsolidate compiler generated dependencies of target lecture3_interfaces__rosidl_generator_py[0m
+[0.750s] [ 84%] Built target lecture3_interfaces__rosidl_generator_py
+[0.750s] [35m[1mConsolidate compiler generated dependencies of target lecture3_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.750s] [35m[1mConsolidate compiler generated dependencies of target lecture3_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[0.750s] [35m[1mConsolidate compiler generated dependencies of target lecture3_interfaces__rosidl_typesupport_c__pyext[0m
+[0.750s] [ 97%] Built target lecture3_interfaces__rosidl_typesupport_c__pyext
+[0.750s] [ 97%] Built target lecture3_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.750s] [100%] Built target lecture3_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.750s] running egg_info
+[0.750s] writing manifest file 'lecture3_interfaces.egg-info/SOURCES.txt'
+[0.750s] [100%] Built target ament_cmake_python_build_lecture3_interfaces_egg
+[0.814s] Invoked command in '/home/kireiji/RoboticsDev_ws/build/lecture3_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kireiji/RoboticsDev_ws/install/launch_testing_examples:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_pointcloud_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_subscriber:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_service:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_guard_conditions:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_executors:/home/kireiji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/kireiji/RoboticsDev_ws/build/lecture3_interfaces -- -j16 -l16
+[0.951s] Invoking command in '/home/kireiji/RoboticsDev_ws/build/lecture3_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kireiji/RoboticsDev_ws/install/launch_testing_examples:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_pointcloud_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_subscriber:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_service:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_guard_conditions:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_executors:/home/kireiji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/kireiji/RoboticsDev_ws/build/lecture3_interfaces
+[0.965s] -- Install configuration: ""
+[0.966s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/ament_index/resource_index/rosidl_interfaces/lecture3_interfaces
+[0.966s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces
+[0.966s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/msg
+[0.966s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.966s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/msg/detail
+[0.966s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/msg/detail/example_msg__type_support.h
+[0.966s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/msg/detail/example_msg__struct.h
+[0.966s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/msg/detail/example_msg__functions.c
+[0.966s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/msg/detail/example_msg__functions.h
+[0.966s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/msg/example_msg.h
+[0.966s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/srv
+[0.966s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/srv/detail
+[0.966s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/srv/detail/example_srv__type_support.h
+[0.967s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/srv/detail/example_srv__functions.c
+[0.967s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/srv/detail/example_srv__struct.h
+[0.967s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/srv/detail/example_srv__functions.h
+[0.967s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/srv/example_srv.h
+[0.967s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/lecture3_interfaces/environment/library_path.sh
+[0.967s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/lecture3_interfaces/environment/library_path.dsv
+[0.967s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/lib/liblecture3_interfaces__rosidl_generator_c.so
+[0.967s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces
+[0.967s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/msg
+[0.967s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.967s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/msg/detail
+[0.967s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/msg/detail/example_msg__rosidl_typesupport_fastrtps_c.h
+[0.967s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/srv
+[0.968s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/srv/detail
+[0.968s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/srv/detail/example_srv__rosidl_typesupport_fastrtps_c.h
+[0.968s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/lib/liblecture3_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.968s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces
+[0.968s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/msg
+[0.968s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/msg/example_msg.hpp
+[0.968s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/msg/detail
+[0.968s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/msg/detail/example_msg__struct.hpp
+[0.968s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/msg/detail/example_msg__traits.hpp
+[0.968s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/msg/detail/example_msg__builder.hpp
+[0.968s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/srv
+[0.968s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/srv/example_srv.hpp
+[0.969s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/srv/detail
+[0.969s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/srv/detail/example_srv__traits.hpp
+[0.969s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/srv/detail/example_srv__struct.hpp
+[0.969s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/srv/detail/example_srv__builder.hpp
+[0.969s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces
+[0.969s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/msg
+[0.969s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.969s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/msg/detail
+[0.969s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/msg/detail/dds_fastrtps
+[0.969s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/msg/detail/example_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[0.969s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/srv
+[0.969s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/srv/detail
+[0.970s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/srv/detail/example_srv__rosidl_typesupport_fastrtps_cpp.hpp
+[0.970s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/srv/detail/dds_fastrtps
+[0.970s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/lib/liblecture3_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.970s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces
+[0.970s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/msg
+[0.970s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/msg/detail
+[0.970s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/msg/detail/example_msg__type_support.c
+[0.970s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/msg/detail/example_msg__rosidl_typesupport_introspection_c.h
+[0.970s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.970s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/srv
+[0.970s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/srv/detail
+[0.970s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/srv/detail/example_srv__type_support.c
+[0.970s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/srv/detail/example_srv__rosidl_typesupport_introspection_c.h
+[0.970s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/lib/liblecture3_interfaces__rosidl_typesupport_introspection_c.so
+[0.971s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/lib/liblecture3_interfaces__rosidl_typesupport_c.so
+[0.971s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces
+[0.971s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/msg
+[0.971s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/msg/detail
+[0.971s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/msg/detail/example_msg__rosidl_typesupport_introspection_cpp.hpp
+[0.971s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/msg/detail/example_msg__type_support.cpp
+[0.971s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/srv
+[0.971s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/srv/detail
+[0.971s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/srv/detail/example_srv__rosidl_typesupport_introspection_cpp.hpp
+[0.971s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/include/lecture3_interfaces/lecture3_interfaces/srv/detail/example_srv__type_support.cpp
+[0.971s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/lib/liblecture3_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.971s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/lib/liblecture3_interfaces__rosidl_typesupport_cpp.so
+[0.971s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/lecture3_interfaces/environment/pythonpath.sh
+[0.971s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/lecture3_interfaces/environment/pythonpath.dsv
+[0.971s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/lib/python3.10/site-packages/lecture3_interfaces-0.0.0-py3.10.egg-info
+[0.971s] -- Installing: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/lib/python3.10/site-packages/lecture3_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[0.971s] -- Installing: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/lib/python3.10/site-packages/lecture3_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.971s] -- Installing: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/lib/python3.10/site-packages/lecture3_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[0.971s] -- Installing: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/lib/python3.10/site-packages/lecture3_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.971s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/lib/python3.10/site-packages/lecture3_interfaces
+[0.971s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/lib/python3.10/site-packages/lecture3_interfaces/lecture3_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.972s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/lib/python3.10/site-packages/lecture3_interfaces/_lecture3_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[0.972s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/lib/python3.10/site-packages/lecture3_interfaces/__init__.py
+[0.972s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/lib/python3.10/site-packages/lecture3_interfaces/msg
+[0.972s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/lib/python3.10/site-packages/lecture3_interfaces/msg/__init__.py
+[0.972s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/lib/python3.10/site-packages/lecture3_interfaces/msg/_example_msg_s.c
+[0.972s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/lib/python3.10/site-packages/lecture3_interfaces/msg/_example_msg.py
+[0.972s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/lib/python3.10/site-packages/lecture3_interfaces/lecture3_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.972s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/lib/python3.10/site-packages/lecture3_interfaces/srv
+[0.972s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/lib/python3.10/site-packages/lecture3_interfaces/srv/__init__.py
+[0.972s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/lib/python3.10/site-packages/lecture3_interfaces/srv/_example_srv.py
+[0.972s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/lib/python3.10/site-packages/lecture3_interfaces/srv/_example_srv_s.c
+[0.972s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/lib/python3.10/site-packages/lecture3_interfaces/_lecture3_interfaces_s.ep.rosidl_typesupport_c.c
+[0.972s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/lib/python3.10/site-packages/lecture3_interfaces/liblecture3_interfaces__rosidl_generator_py.so
+[0.972s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/lib/python3.10/site-packages/lecture3_interfaces/lecture3_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.972s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/lib/python3.10/site-packages/lecture3_interfaces/_lecture3_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.988s] Listing '/home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/lib/python3.10/site-packages/lecture3_interfaces'...
+[0.988s] Listing '/home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/lib/python3.10/site-packages/lecture3_interfaces/msg'...
+[0.988s] Listing '/home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/lib/python3.10/site-packages/lecture3_interfaces/srv'...
+[0.993s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/lib/python3.10/site-packages/lecture3_interfaces/lecture3_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.993s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/lib/python3.10/site-packages/lecture3_interfaces/lecture3_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.994s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/lib/python3.10/site-packages/lecture3_interfaces/lecture3_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.994s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/lib/liblecture3_interfaces__rosidl_generator_py.so
+[0.994s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/lecture3_interfaces/msg/ExampleMsg.idl
+[0.994s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/lecture3_interfaces/srv/ExampleSrv.idl
+[0.994s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/lecture3_interfaces/msg/ExampleMsg.msg
+[0.994s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/lecture3_interfaces/srv/ExampleSrv.srv
+[0.994s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/lecture3_interfaces/srv/ExampleSrv_Request.msg
+[0.994s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/lecture3_interfaces/srv/ExampleSrv_Response.msg
+[0.994s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/ament_index/resource_index/package_run_dependencies/lecture3_interfaces
+[0.994s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/ament_index/resource_index/parent_prefix_path/lecture3_interfaces
+[0.994s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/lecture3_interfaces/environment/ament_prefix_path.sh
+[0.994s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/lecture3_interfaces/environment/ament_prefix_path.dsv
+[0.994s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/lecture3_interfaces/environment/path.sh
+[0.994s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/lecture3_interfaces/environment/path.dsv
+[0.994s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/lecture3_interfaces/local_setup.bash
+[0.994s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/lecture3_interfaces/local_setup.sh
+[0.994s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/lecture3_interfaces/local_setup.zsh
+[0.994s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/lecture3_interfaces/local_setup.dsv
+[0.995s] -- Installing: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/lecture3_interfaces/package.dsv
+[0.995s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/ament_index/resource_index/packages/lecture3_interfaces
+[0.995s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/lecture3_interfaces/cmake/export_lecture3_interfaces__rosidl_generator_cExport.cmake
+[0.995s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/lecture3_interfaces/cmake/export_lecture3_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.995s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/lecture3_interfaces/cmake/export_lecture3_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[0.995s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/lecture3_interfaces/cmake/export_lecture3_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.995s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/lecture3_interfaces/cmake/export_lecture3_interfaces__rosidl_generator_cppExport.cmake
+[0.995s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/lecture3_interfaces/cmake/export_lecture3_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.995s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/lecture3_interfaces/cmake/export_lecture3_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.995s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/lecture3_interfaces/cmake/lecture3_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.995s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/lecture3_interfaces/cmake/lecture3_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.995s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/lecture3_interfaces/cmake/lecture3_interfaces__rosidl_typesupport_cExport.cmake
+[0.995s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/lecture3_interfaces/cmake/lecture3_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.995s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/lecture3_interfaces/cmake/lecture3_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.995s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/lecture3_interfaces/cmake/lecture3_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.995s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/lecture3_interfaces/cmake/lecture3_interfaces__rosidl_typesupport_cppExport.cmake
+[0.995s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/lecture3_interfaces/cmake/lecture3_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.996s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/lecture3_interfaces/cmake/export_lecture3_interfaces__rosidl_generator_pyExport.cmake
+[0.996s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/lecture3_interfaces/cmake/export_lecture3_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[0.996s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/lecture3_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.996s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/lecture3_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.996s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/lecture3_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.996s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/lecture3_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.996s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/lecture3_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.996s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/lecture3_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.996s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/lecture3_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.996s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/lecture3_interfaces/cmake/lecture3_interfacesConfig.cmake
+[0.996s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/lecture3_interfaces/cmake/lecture3_interfacesConfig-version.cmake
+[0.996s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture3_interfaces/share/lecture3_interfaces/package.xml
+[1.073s] Invoked command in '/home/kireiji/RoboticsDev_ws/build/lecture3_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kireiji/RoboticsDev_ws/install/launch_testing_examples:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_pointcloud_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_subscriber:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_service:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_guard_conditions:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_executors:/home/kireiji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/kireiji/RoboticsDev_ws/build/lecture3_interfaces
