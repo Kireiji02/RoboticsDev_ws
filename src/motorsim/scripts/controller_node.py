@@ -15,11 +15,11 @@ class ControllerNode(Node):
         self.declare_parameter('Kp', 0.0)
         self.declare_parameter('Ki', 0.0)
         self.declare_parameter('Kd', 0.0)
-        self.declare_parameter('U_max', 12.0)
+        self.declare_parameter('U_max', 1000000.0)
 
         self.freq = 100.0
 
-        self.create_subscription(Twist, "cmd_vel", self.cmd_callback, 10)
+        self.create_subscription(Float64, "target", self.target_callback, 10)
         # self.create_subscription(Twist, "motor_speed", self.fb_callback, 10)
         self.create_subscription(Float64, "motor_position", self.pos_fb_callback, 10)
         self.signal_publisher = self.create_publisher(Float64, "control_signal", 10)
@@ -31,9 +31,10 @@ class ControllerNode(Node):
         self.U_max = self.get_parameter('U_max').value
 
         self.pid = PIDController(self.Kp, self.Ki, self.Kd, self.U_max)
-        self.target = 0.0
+    
         # self.feedback = 0.0
         self.pos_feedback = 0.0
+        self.pos_target = 0.0
       
         # Add callback for parameter changes
         self.add_on_set_parameters_callback(self.set_param_callback)
@@ -63,14 +64,14 @@ class ControllerNode(Node):
     def pos_fb_callback(self, msg:Float64):
         self.pos_feedback = msg.data
 
-    def cmd_callback(self, msg: Twist):
-        self.target = msg.angular.z
+    def target_callback(self, msg: Twist):
+        self.pos_target = msg.angular.z
 
     # def fb_callback(self, msg: Twist):
     #     self.feedback = msg.angular.z
 
     def timer_callback(self):
-        error = self.target - self.feedback
+        error = self.pos_target - self.pos_feedback
         msg = Float64()
         msg.data = self.pid.compute(error)
         self.signal_publisher.publish(msg)
