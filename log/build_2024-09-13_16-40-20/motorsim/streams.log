@@ -1,0 +1,98 @@
+[0.291s] Invoking command in '/home/kireiji/RoboticsDev_ws/build/motorsim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kireiji/RoboticsDev_ws/install/turtlesim_plus:/home/kireiji/RoboticsDev_ws/install/launch_testing_examples:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_pointcloud_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_subscriber:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_service:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_guard_conditions:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_executors:/home/kireiji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/kireiji/RoboticsDev_ws/src/motorsim -DCMAKE_INSTALL_PREFIX=/home/kireiji/RoboticsDev_ws/install/motorsim
+[0.434s] -- The C compiler identification is GNU 11.4.0
+[0.574s] -- The CXX compiler identification is GNU 11.4.0
+[0.589s] -- Detecting C compiler ABI info
+[0.715s] -- Detecting C compiler ABI info - done
+[0.727s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.727s] -- Detecting C compile features
+[0.728s] -- Detecting C compile features - done
+[0.733s] -- Detecting CXX compiler ABI info
+[0.913s] -- Detecting CXX compiler ABI info - done
+[0.923s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.923s] -- Detecting CXX compile features
+[0.923s] -- Detecting CXX compile features - done
+[0.931s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.713s] -- Found Python3: /usr/local/bin/python3 (found version "3.10.0") found components: Interpreter 
+[1.826s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.889s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.894s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.902s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.914s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.928s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.976s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.980s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.050s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.069s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.097s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.108s] -- Looking for pthread.h
+[2.161s] -- Looking for pthread.h - found
+[2.162s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.210s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.211s] -- Found Threads: TRUE  
+[2.257s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[2.411s] -- Configuring done
+[2.417s] -- Generating done
+[2.418s] -- Build files have been written to: /home/kireiji/RoboticsDev_ws/build/motorsim
+[2.424s] Invoked command in '/home/kireiji/RoboticsDev_ws/build/motorsim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kireiji/RoboticsDev_ws/install/turtlesim_plus:/home/kireiji/RoboticsDev_ws/install/launch_testing_examples:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_pointcloud_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_subscriber:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_service:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_guard_conditions:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_executors:/home/kireiji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/kireiji/RoboticsDev_ws/src/motorsim -DCMAKE_INSTALL_PREFIX=/home/kireiji/RoboticsDev_ws/install/motorsim
+[2.425s] Invoking command in '/home/kireiji/RoboticsDev_ws/build/motorsim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kireiji/RoboticsDev_ws/install/turtlesim_plus:/home/kireiji/RoboticsDev_ws/install/launch_testing_examples:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_pointcloud_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_subscriber:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_service:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_guard_conditions:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_executors:/home/kireiji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/kireiji/RoboticsDev_ws/build/motorsim -- -j16 -l16
+[2.458s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node_test.dir/src/cpp_node.cpp.o[0m
+[2.463s] [ 50%] Built target ament_cmake_python_copy_motorsim
+[2.642s] [100%] [32m[1mLinking CXX executable cpp_node_test[0m
+[2.655s] running egg_info
+[2.655s] creating motorsim.egg-info
+[2.656s] writing manifest file 'motorsim.egg-info/SOURCES.txt'
+[2.658s] writing manifest file 'motorsim.egg-info/SOURCES.txt'
+[2.686s] [100%] Built target ament_cmake_python_build_motorsim_egg
+[2.754s] [100%] Built target cpp_node_test
+[2.762s] Invoked command in '/home/kireiji/RoboticsDev_ws/build/motorsim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kireiji/RoboticsDev_ws/install/turtlesim_plus:/home/kireiji/RoboticsDev_ws/install/launch_testing_examples:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_pointcloud_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_subscriber:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_service:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_guard_conditions:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_executors:/home/kireiji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/kireiji/RoboticsDev_ws/build/motorsim -- -j16 -l16
+[2.782s] Invoking command in '/home/kireiji/RoboticsDev_ws/build/motorsim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kireiji/RoboticsDev_ws/install/turtlesim_plus:/home/kireiji/RoboticsDev_ws/install/launch_testing_examples:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_pointcloud_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_subscriber:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_service:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_guard_conditions:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_executors:/home/kireiji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/kireiji/RoboticsDev_ws/build/motorsim
+[2.787s] -- Install configuration: ""
+[2.787s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/environment/pythonpath.sh
+[2.787s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/environment/pythonpath.dsv
+[2.787s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/lib/python3.10/site-packages/motorsim-0.0.0-py3.10.egg-info
+[2.787s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/lib/python3.10/site-packages/motorsim-0.0.0-py3.10.egg-info/PKG-INFO
+[2.787s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/lib/python3.10/site-packages/motorsim-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.787s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/lib/python3.10/site-packages/motorsim-0.0.0-py3.10.egg-info/top_level.txt
+[2.788s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/lib/python3.10/site-packages/motorsim-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.788s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/lib/python3.10/site-packages/motorsim
+[2.788s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/lib/python3.10/site-packages/motorsim/__init__.py
+[2.788s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/lib/python3.10/site-packages/motorsim/pid_controller.py
+[2.788s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/lib/python3.10/site-packages/motorsim/dc_motor_model.py
+[2.788s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/lib/python3.10/site-packages/motorsim/dummy_module.py
+[2.819s] Listing '/home/kireiji/RoboticsDev_ws/install/motorsim/lib/python3.10/site-packages/motorsim'...
+[2.819s] Compiling '/home/kireiji/RoboticsDev_ws/install/motorsim/lib/python3.10/site-packages/motorsim/__init__.py'...
+[2.819s] Compiling '/home/kireiji/RoboticsDev_ws/install/motorsim/lib/python3.10/site-packages/motorsim/dc_motor_model.py'...
+[2.819s] Compiling '/home/kireiji/RoboticsDev_ws/install/motorsim/lib/python3.10/site-packages/motorsim/dummy_module.py'...
+[2.819s] Compiling '/home/kireiji/RoboticsDev_ws/install/motorsim/lib/python3.10/site-packages/motorsim/pid_controller.py'...
+[2.822s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/lib/motorsim/dummy_script.py
+[2.822s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/lib/motorsim/dc_motor_node.py
+[2.822s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/lib/motorsim/motorsim_node.py
+[2.823s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/lib/motorsim/controller_node.py
+[2.823s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/lib/motorsim/cpp_node_test
+[2.823s] -- Set runtime path of "/home/kireiji/RoboticsDev_ws/install/motorsim/lib/motorsim/cpp_node_test" to ""
+[2.823s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/scripts
+[2.823s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/scripts/motorsim_node.py
+[2.823s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/scripts/dummy_script.py
+[2.823s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/scripts/controller_node.py
+[2.823s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/scripts/dc_motor_node.py
+[2.823s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/motorsim
+[2.823s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/motorsim/__init__.py
+[2.823s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/motorsim/pid_controller.py
+[2.823s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/motorsim/dc_motor_model.py
+[2.823s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/motorsim/dummy_module.py
+[2.823s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/share/ament_index/resource_index/package_run_dependencies/motorsim
+[2.823s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/share/ament_index/resource_index/parent_prefix_path/motorsim
+[2.823s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/environment/ament_prefix_path.sh
+[2.823s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/environment/ament_prefix_path.dsv
+[2.824s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/environment/path.sh
+[2.824s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/environment/path.dsv
+[2.824s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/local_setup.bash
+[2.824s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/local_setup.sh
+[2.824s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/local_setup.zsh
+[2.824s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/local_setup.dsv
+[2.824s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/package.dsv
+[2.824s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/share/ament_index/resource_index/packages/motorsim
+[2.824s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/cmake/motorsimConfig.cmake
+[2.824s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/cmake/motorsimConfig-version.cmake
+[2.824s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/package.xml
+[2.826s] Invoked command in '/home/kireiji/RoboticsDev_ws/build/motorsim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kireiji/RoboticsDev_ws/install/turtlesim_plus:/home/kireiji/RoboticsDev_ws/install/launch_testing_examples:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_pointcloud_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_subscriber:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_service:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_guard_conditions:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_executors:/home/kireiji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/kireiji/RoboticsDev_ws/build/motorsim

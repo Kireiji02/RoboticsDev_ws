@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from turtlesim_plus_interfaces/action/GetData.action
+// generated code does not contain a copyright notice
+
+#include "turtlesim_plus_interfaces/msg/ScannerDataArray.idl"
+
+module turtlesim_plus_interfaces {
+  module action {
+    struct GetData_Goal {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct GetData_Result {
+      boolean is_data;
+
+      turtlesim_plus_interfaces::msg::ScannerDataArray data;
+    };
+    struct GetData_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

@@ -1,0 +1,4 @@
+std_msgs/Int32 a
+std_msgs/Int32 b
+---
+std_msgs/Int32 sum

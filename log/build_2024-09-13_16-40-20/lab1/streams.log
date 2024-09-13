@@ -1,0 +1,45 @@
+[1.369s] Invoking command in '/home/kireiji/RoboticsDev_ws/build/lab1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kireiji/RoboticsDev_ws/install/turtlesim_plus:/home/kireiji/RoboticsDev_ws/install/launch_testing_examples:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_pointcloud_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_subscriber:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_service:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_guard_conditions:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_executors:/home/kireiji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/kireiji/RoboticsDev_ws/build/lab1 -- -j16 -l16
+[1.638s] [100%] Built target cpp_node_test
+[1.638s] [100%] Built target ament_cmake_python_copy_lab1
+[1.638s] running egg_info
+[1.638s] writing manifest file 'lab1.egg-info/SOURCES.txt'
+[1.638s] [100%] Built target ament_cmake_python_build_lab1_egg
+[1.704s] Invoked command in '/home/kireiji/RoboticsDev_ws/build/lab1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kireiji/RoboticsDev_ws/install/turtlesim_plus:/home/kireiji/RoboticsDev_ws/install/launch_testing_examples:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_pointcloud_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_subscriber:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_service:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_guard_conditions:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_executors:/home/kireiji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/kireiji/RoboticsDev_ws/build/lab1 -- -j16 -l16
+[1.751s] Invoking command in '/home/kireiji/RoboticsDev_ws/build/lab1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kireiji/RoboticsDev_ws/install/turtlesim_plus:/home/kireiji/RoboticsDev_ws/install/launch_testing_examples:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_pointcloud_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_subscriber:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_service:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_guard_conditions:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_executors:/home/kireiji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/kireiji/RoboticsDev_ws/build/lab1
+[1.760s] -- Install configuration: ""
+[1.761s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lab1/share/lab1/environment/pythonpath.sh
+[1.761s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lab1/share/lab1/environment/pythonpath.dsv
+[1.761s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lab1/lib/python3.10/site-packages/lab1-0.0.0-py3.10.egg-info
+[1.761s] -- Installing: /home/kireiji/RoboticsDev_ws/install/lab1/lib/python3.10/site-packages/lab1-0.0.0-py3.10.egg-info/PKG-INFO
+[1.761s] -- Installing: /home/kireiji/RoboticsDev_ws/install/lab1/lib/python3.10/site-packages/lab1-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.761s] -- Installing: /home/kireiji/RoboticsDev_ws/install/lab1/lib/python3.10/site-packages/lab1-0.0.0-py3.10.egg-info/top_level.txt
+[1.761s] -- Installing: /home/kireiji/RoboticsDev_ws/install/lab1/lib/python3.10/site-packages/lab1-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.761s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lab1/lib/python3.10/site-packages/lab1
+[1.761s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lab1/lib/python3.10/site-packages/lab1/__init__.py
+[1.762s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lab1/lib/python3.10/site-packages/lab1/dummy_module.py
+[1.839s] Listing '/home/kireiji/RoboticsDev_ws/install/lab1/lib/python3.10/site-packages/lab1'...
+[1.844s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lab1/lib/lab1/dummy_script.py
+[1.844s] -- Installing: /home/kireiji/RoboticsDev_ws/install/lab1/lib/lab1/noise_generator.py
+[1.848s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lab1/lib/lab1/velocity_mux.py
+[1.848s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lab1/lib/lab1/cpp_node_test
+[1.848s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lab1/share/lab1/launch
+[1.848s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lab1/share/lab1/launch/simple-param.launch.py
+[1.849s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lab1/share/lab1/launch/lab1execute-process.launch.py
+[1.849s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lab1/share/lab1/launch/lab1.launch.py
+[1.849s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lab1/share/lab1/launch/simple.launch.py
+[1.849s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lab1/share/ament_index/resource_index/package_run_dependencies/lab1
+[1.849s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lab1/share/ament_index/resource_index/parent_prefix_path/lab1
+[1.851s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lab1/share/lab1/environment/ament_prefix_path.sh
+[1.851s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lab1/share/lab1/environment/ament_prefix_path.dsv
+[1.851s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lab1/share/lab1/environment/path.sh
+[1.851s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lab1/share/lab1/environment/path.dsv
+[1.851s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lab1/share/lab1/local_setup.bash
+[1.851s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lab1/share/lab1/local_setup.sh
+[1.851s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lab1/share/lab1/local_setup.zsh
+[1.852s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lab1/share/lab1/local_setup.dsv
+[1.855s] -- Installing: /home/kireiji/RoboticsDev_ws/install/lab1/share/lab1/package.dsv
+[1.855s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lab1/share/ament_index/resource_index/packages/lab1
+[1.855s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lab1/share/lab1/cmake/lab1Config.cmake
+[1.855s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lab1/share/lab1/cmake/lab1Config-version.cmake
+[1.855s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lab1/share/lab1/package.xml
+[1.865s] Invoked command in '/home/kireiji/RoboticsDev_ws/build/lab1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kireiji/RoboticsDev_ws/install/turtlesim_plus:/home/kireiji/RoboticsDev_ws/install/launch_testing_examples:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_pointcloud_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_subscriber:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_service:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_guard_conditions:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_executors:/home/kireiji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/kireiji/RoboticsDev_ws/build/lab1

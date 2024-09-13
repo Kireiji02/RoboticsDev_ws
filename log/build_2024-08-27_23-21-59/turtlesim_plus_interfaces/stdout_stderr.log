@@ -1,0 +1,18 @@
+[  1%] Built target turtlesim_plus_interfaces__cpp
+[ 12%] Built target turtlesim_plus_interfaces__rosidl_generator_c
+[ 56%] Built target turtlesim_plus_interfaces__rosidl_typesupport_c
+[ 56%] Built target turtlesim_plus_interfaces__rosidl_typesupport_introspection_c
+[ 56%] Built target turtlesim_plus_interfaces__rosidl_typesupport_fastrtps_c
+[ 56%] Built target turtlesim_plus_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 67%] Built target turtlesim_plus_interfaces__rosidl_typesupport_introspection_cpp
+[ 67%] Built target ament_cmake_python_copy_turtlesim_plus_interfaces
+[ 78%] Built target turtlesim_plus_interfaces__rosidl_typesupport_cpp
+[ 78%] Built target turtlesim_plus_interfaces
+[ 80%] Built target turtlesim_plus_interfaces__py
+[ 89%] Built target turtlesim_plus_interfaces__rosidl_generator_py
+[ 92%] Built target turtlesim_plus_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[ 96%] Built target turtlesim_plus_interfaces__rosidl_typesupport_introspection_c__pyext
+[100%] Built target turtlesim_plus_interfaces__rosidl_typesupport_c__pyext
+running egg_info
+writing manifest file 'turtlesim_plus_interfaces.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_turtlesim_plus_interfaces_egg

@@ -1,0 +1,228 @@
+[0.291s] Invoking command in '/home/kireiji/RoboticsDev_ws/build/motorsim_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kireiji/RoboticsDev_ws/install/turtlesim_plus:/home/kireiji/RoboticsDev_ws/install/launch_testing_examples:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_pointcloud_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_subscriber:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_service:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_guard_conditions:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_executors:/home/kireiji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/kireiji/RoboticsDev_ws/src/motorsim_interfaces -DCMAKE_INSTALL_PREFIX=/home/kireiji/RoboticsDev_ws/install/motorsim_interfaces
+[0.430s] -- The C compiler identification is GNU 11.4.0
+[0.567s] -- The CXX compiler identification is GNU 11.4.0
+[0.585s] -- Detecting C compiler ABI info
+[0.701s] -- Detecting C compiler ABI info - done
+[0.712s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.713s] -- Detecting C compile features
+[0.713s] -- Detecting C compile features - done
+[0.720s] -- Detecting CXX compiler ABI info
+[0.877s] -- Detecting CXX compiler ABI info - done
+[0.890s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.890s] -- Detecting CXX compile features
+[0.890s] -- Detecting CXX compile features - done
+[0.905s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.694s] -- Found Python3: /usr/local/bin/python3 (found version "3.10.0") found components: Interpreter 
+[1.822s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.833s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.847s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.899s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.152s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.308s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.505s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.528s] -- Found PythonInterp: /usr/local/bin/python3 (found suitable version "3.10", minimum required is "3.6") 
+[2.533s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.558s] -- Found PythonLibs: /usr/local/lib/libpython3.10.a (found suitable version "3.10.0", minimum required is "3.5") 
+[2.558s] -- Using PYTHON_EXECUTABLE: /usr/local/bin/python3
+[2.559s] -- Using PYTHON_INCLUDE_DIRS: /usr/local/include/python3.10
+[2.559s] -- Using PYTHON_LIBRARIES: /usr/local/lib/libpython3.10.a
+[2.579s] -- Found PythonExtra: .so  
+[2.752s] -- Using numpy include directory: /home/kireiji/.local/lib/python3.10/site-packages/numpy/_core/include
+[2.767s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.793s] -- Added test 'lint_cmake' to check CMake code style
+[2.794s] -- Added test 'xmllint' to check XML markup files
+[2.796s] -- Configuring done
+[2.810s] -- Generating done
+[2.812s] -- Build files have been written to: /home/kireiji/RoboticsDev_ws/build/motorsim_interfaces
+[2.816s] Invoked command in '/home/kireiji/RoboticsDev_ws/build/motorsim_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kireiji/RoboticsDev_ws/install/turtlesim_plus:/home/kireiji/RoboticsDev_ws/install/launch_testing_examples:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_pointcloud_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_subscriber:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_service:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_guard_conditions:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_executors:/home/kireiji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/kireiji/RoboticsDev_ws/src/motorsim_interfaces -DCMAKE_INSTALL_PREFIX=/home/kireiji/RoboticsDev_ws/install/motorsim_interfaces
+[2.817s] Invoking command in '/home/kireiji/RoboticsDev_ws/build/motorsim_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kireiji/RoboticsDev_ws/install/turtlesim_plus:/home/kireiji/RoboticsDev_ws/install/launch_testing_examples:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_pointcloud_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_subscriber:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_service:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_guard_conditions:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_executors:/home/kireiji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/kireiji/RoboticsDev_ws/build/motorsim_interfaces -- -j16 -l16
+[2.843s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.850s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.855s] [  6%] Built target ament_cmake_python_copy_motorsim_interfaces
+[3.046s] running egg_info
+[3.047s] creating motorsim_interfaces.egg-info
+[3.047s] writing manifest file 'motorsim_interfaces.egg-info/SOURCES.txt'
+[3.049s] writing manifest file 'motorsim_interfaces.egg-info/SOURCES.txt'
+[3.069s] [  6%] Built target ament_cmake_python_build_motorsim_interfaces_egg
+[3.101s] [  6%] Built target motorsim_interfaces__cpp
+[3.107s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.107s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.107s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.114s] [ 19%] [32mBuilding C object CMakeFiles/motorsim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motorsim_interfaces/srv/detail/motor_spawn__functions.c.o[0m
+[3.156s] [ 22%] [32m[1mLinking C shared library libmotorsim_interfaces__rosidl_generator_c.so[0m
+[3.180s] [ 22%] Built target motorsim_interfaces__rosidl_generator_c
+[3.187s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.187s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.187s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.302s] [ 35%] [32mBuilding CXX object CMakeFiles/motorsim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motorsim_interfaces/srv/motor_spawn__type_support.cpp.o[0m
+[3.325s] [ 38%] [32mBuilding CXX object CMakeFiles/motorsim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motorsim_interfaces/srv/detail/motor_spawn__type_support.cpp.o[0m
+[3.333s] [ 41%] [32mBuilding CXX object CMakeFiles/motorsim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motorsim_interfaces/srv/detail/dds_fastrtps/motor_spawn__type_support.cpp.o[0m
+[3.390s] [ 45%] [32mBuilding CXX object CMakeFiles/motorsim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/motorsim_interfaces/srv/motor_spawn__type_support.cpp.o[0m
+[3.413s] [ 48%] [32m[1mLinking CXX shared library libmotorsim_interfaces__rosidl_typesupport_c.so[0m
+[3.416s] [ 51%] [32mBuilding C object CMakeFiles/motorsim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motorsim_interfaces/srv/detail/motor_spawn__type_support.c.o[0m
+[3.420s] [ 54%] [32mBuilding CXX object CMakeFiles/motorsim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motorsim_interfaces/srv/detail/motor_spawn__type_support_c.cpp.o[0m
+[3.441s] [ 58%] [32m[1mLinking C shared library libmotorsim_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.441s] [ 58%] Built target motorsim_interfaces__rosidl_typesupport_c
+[3.462s] [ 58%] Built target motorsim_interfaces__rosidl_typesupport_introspection_c
+[3.488s] [ 61%] [32m[1mLinking CXX shared library libmotorsim_interfaces__rosidl_typesupport_cpp.so[0m
+[3.518s] [ 61%] Built target motorsim_interfaces__rosidl_typesupport_cpp
+[3.576s] [ 64%] [32m[1mLinking CXX shared library libmotorsim_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.595s] [ 67%] [32m[1mLinking CXX shared library libmotorsim_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.619s] [ 67%] Built target motorsim_interfaces__rosidl_typesupport_introspection_cpp
+[3.636s] [ 70%] [32m[1mLinking CXX shared library libmotorsim_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.642s] [ 70%] Built target motorsim_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.681s] [ 70%] Built target motorsim_interfaces__rosidl_typesupport_fastrtps_c
+[3.694s] [ 70%] Built target motorsim_interfaces
+[3.707s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.004s] [ 74%] Built target motorsim_interfaces__py
+[4.016s] [ 77%] [32mBuilding C object CMakeFiles/motorsim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/motorsim_interfaces/srv/_motor_spawn_s.c.o[0m
+[4.099s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/motorsim_interfaces/libmotorsim_interfaces__rosidl_generator_py.so[0m
+[4.288s] [ 80%] Built target motorsim_interfaces__rosidl_generator_py
+[4.302s] [ 90%] [32mBuilding C object CMakeFiles/motorsim_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/motorsim_interfaces/_motorsim_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.302s] [ 90%] [32mBuilding C object CMakeFiles/motorsim_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/motorsim_interfaces/_motorsim_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.302s] [ 90%] [32mBuilding C object CMakeFiles/motorsim_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/motorsim_interfaces/_motorsim_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.361s] [100%] [32m[1mLinking C shared library rosidl_generator_py/motorsim_interfaces/motorsim_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.361s] [100%] [32m[1mLinking C shared library rosidl_generator_py/motorsim_interfaces/motorsim_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.361s] [100%] [32m[1mLinking C shared library rosidl_generator_py/motorsim_interfaces/motorsim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.383s] [100%] Built target motorsim_interfaces__rosidl_typesupport_c__pyext
+[4.383s] [100%] Built target motorsim_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.383s] [100%] Built target motorsim_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.390s] Invoked command in '/home/kireiji/RoboticsDev_ws/build/motorsim_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kireiji/RoboticsDev_ws/install/turtlesim_plus:/home/kireiji/RoboticsDev_ws/install/launch_testing_examples:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_pointcloud_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_subscriber:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_service:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_guard_conditions:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_executors:/home/kireiji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/kireiji/RoboticsDev_ws/build/motorsim_interfaces -- -j16 -l16
+[4.439s] Invoking command in '/home/kireiji/RoboticsDev_ws/build/motorsim_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kireiji/RoboticsDev_ws/install/turtlesim_plus:/home/kireiji/RoboticsDev_ws/install/launch_testing_examples:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_pointcloud_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_subscriber:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_service:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_guard_conditions:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_executors:/home/kireiji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/kireiji/RoboticsDev_ws/build/motorsim_interfaces
+[4.444s] -- Install configuration: ""
+[4.444s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/ament_index/resource_index/rosidl_interfaces/motorsim_interfaces
+[4.444s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/include/motorsim_interfaces/motorsim_interfaces
+[4.444s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/include/motorsim_interfaces/motorsim_interfaces/msg
+[4.445s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/include/motorsim_interfaces/motorsim_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.445s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/include/motorsim_interfaces/motorsim_interfaces/srv
+[4.445s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/include/motorsim_interfaces/motorsim_interfaces/srv/detail
+[4.445s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/include/motorsim_interfaces/motorsim_interfaces/srv/detail/motor_spawn__functions.h
+[4.445s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/include/motorsim_interfaces/motorsim_interfaces/srv/detail/motor_spawn__functions.c
+[4.445s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/include/motorsim_interfaces/motorsim_interfaces/srv/detail/motor_spawn__struct.h
+[4.445s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/include/motorsim_interfaces/motorsim_interfaces/srv/detail/motor_spawn__type_support.h
+[4.445s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/include/motorsim_interfaces/motorsim_interfaces/srv/motor_spawn.h
+[4.445s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/motorsim_interfaces/environment/library_path.sh
+[4.445s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/motorsim_interfaces/environment/library_path.dsv
+[4.445s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/lib/libmotorsim_interfaces__rosidl_generator_c.so
+[4.445s] -- Set runtime path of "/home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/lib/libmotorsim_interfaces__rosidl_generator_c.so" to ""
+[4.445s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/include/motorsim_interfaces/motorsim_interfaces
+[4.445s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/include/motorsim_interfaces/motorsim_interfaces/msg
+[4.445s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/include/motorsim_interfaces/motorsim_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.445s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/include/motorsim_interfaces/motorsim_interfaces/srv
+[4.445s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/include/motorsim_interfaces/motorsim_interfaces/srv/detail
+[4.445s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/include/motorsim_interfaces/motorsim_interfaces/srv/detail/motor_spawn__rosidl_typesupport_fastrtps_c.h
+[4.445s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/lib/libmotorsim_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.446s] -- Set runtime path of "/home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/lib/libmotorsim_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.446s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/include/motorsim_interfaces/motorsim_interfaces
+[4.446s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/include/motorsim_interfaces/motorsim_interfaces/msg
+[4.446s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/include/motorsim_interfaces/motorsim_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.446s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/include/motorsim_interfaces/motorsim_interfaces/srv
+[4.446s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/include/motorsim_interfaces/motorsim_interfaces/srv/detail
+[4.446s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/include/motorsim_interfaces/motorsim_interfaces/srv/detail/motor_spawn__rosidl_typesupport_introspection_c.h
+[4.446s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/include/motorsim_interfaces/motorsim_interfaces/srv/detail/motor_spawn__type_support.c
+[4.446s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/lib/libmotorsim_interfaces__rosidl_typesupport_introspection_c.so
+[4.446s] -- Set runtime path of "/home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/lib/libmotorsim_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.446s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/lib/libmotorsim_interfaces__rosidl_typesupport_c.so
+[4.446s] -- Set runtime path of "/home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/lib/libmotorsim_interfaces__rosidl_typesupport_c.so" to ""
+[4.446s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/include/motorsim_interfaces/motorsim_interfaces
+[4.446s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/include/motorsim_interfaces/motorsim_interfaces/srv
+[4.446s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/include/motorsim_interfaces/motorsim_interfaces/srv/motor_spawn.hpp
+[4.446s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/include/motorsim_interfaces/motorsim_interfaces/srv/detail
+[4.446s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/include/motorsim_interfaces/motorsim_interfaces/srv/detail/motor_spawn__struct.hpp
+[4.446s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/include/motorsim_interfaces/motorsim_interfaces/srv/detail/motor_spawn__builder.hpp
+[4.446s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/include/motorsim_interfaces/motorsim_interfaces/srv/detail/motor_spawn__traits.hpp
+[4.446s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/include/motorsim_interfaces/motorsim_interfaces
+[4.447s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/include/motorsim_interfaces/motorsim_interfaces/msg
+[4.447s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/include/motorsim_interfaces/motorsim_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.447s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/include/motorsim_interfaces/motorsim_interfaces/srv
+[4.447s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/include/motorsim_interfaces/motorsim_interfaces/srv/detail
+[4.447s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/include/motorsim_interfaces/motorsim_interfaces/srv/detail/dds_fastrtps
+[4.447s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/include/motorsim_interfaces/motorsim_interfaces/srv/detail/motor_spawn__rosidl_typesupport_fastrtps_cpp.hpp
+[4.447s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/lib/libmotorsim_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.447s] -- Set runtime path of "/home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/lib/libmotorsim_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.447s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/include/motorsim_interfaces/motorsim_interfaces
+[4.447s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/include/motorsim_interfaces/motorsim_interfaces/srv
+[4.447s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/include/motorsim_interfaces/motorsim_interfaces/srv/detail
+[4.447s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/include/motorsim_interfaces/motorsim_interfaces/srv/detail/motor_spawn__rosidl_typesupport_introspection_cpp.hpp
+[4.447s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/include/motorsim_interfaces/motorsim_interfaces/srv/detail/motor_spawn__type_support.cpp
+[4.447s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/lib/libmotorsim_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.447s] -- Set runtime path of "/home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/lib/libmotorsim_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.447s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/lib/libmotorsim_interfaces__rosidl_typesupport_cpp.so
+[4.447s] -- Set runtime path of "/home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/lib/libmotorsim_interfaces__rosidl_typesupport_cpp.so" to ""
+[4.447s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/motorsim_interfaces/environment/pythonpath.sh
+[4.447s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/motorsim_interfaces/environment/pythonpath.dsv
+[4.447s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/lib/python3.10/site-packages/motorsim_interfaces-0.0.0-py3.10.egg-info
+[4.447s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/lib/python3.10/site-packages/motorsim_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[4.447s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/lib/python3.10/site-packages/motorsim_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.448s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/lib/python3.10/site-packages/motorsim_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[4.448s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/lib/python3.10/site-packages/motorsim_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.448s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/lib/python3.10/site-packages/motorsim_interfaces
+[4.448s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/lib/python3.10/site-packages/motorsim_interfaces/libmotorsim_interfaces__rosidl_generator_py.so
+[4.455s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/lib/python3.10/site-packages/motorsim_interfaces/_motorsim_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.455s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/lib/python3.10/site-packages/motorsim_interfaces/__init__.py
+[4.455s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/lib/python3.10/site-packages/motorsim_interfaces/_motorsim_interfaces_s.ep.rosidl_typesupport_c.c
+[4.455s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/lib/python3.10/site-packages/motorsim_interfaces/motorsim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.455s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/lib/python3.10/site-packages/motorsim_interfaces/_motorsim_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.455s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/lib/python3.10/site-packages/motorsim_interfaces/srv
+[4.456s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/lib/python3.10/site-packages/motorsim_interfaces/srv/__init__.py
+[4.456s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/lib/python3.10/site-packages/motorsim_interfaces/srv/_motor_spawn.py
+[4.456s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/lib/python3.10/site-packages/motorsim_interfaces/srv/_motor_spawn_s.c
+[4.456s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/lib/python3.10/site-packages/motorsim_interfaces/motorsim_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.456s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/lib/python3.10/site-packages/motorsim_interfaces/motorsim_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.488s] Listing '/home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/lib/python3.10/site-packages/motorsim_interfaces'...
+[4.488s] Compiling '/home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/lib/python3.10/site-packages/motorsim_interfaces/__init__.py'...
+[4.488s] Listing '/home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/lib/python3.10/site-packages/motorsim_interfaces/srv'...
+[4.488s] Compiling '/home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/lib/python3.10/site-packages/motorsim_interfaces/srv/__init__.py'...
+[4.488s] Compiling '/home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/lib/python3.10/site-packages/motorsim_interfaces/srv/_motor_spawn.py'...
+[4.491s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/lib/python3.10/site-packages/motorsim_interfaces/motorsim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.491s] -- Set runtime path of "/home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/lib/python3.10/site-packages/motorsim_interfaces/motorsim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.491s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/lib/python3.10/site-packages/motorsim_interfaces/motorsim_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.491s] -- Set runtime path of "/home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/lib/python3.10/site-packages/motorsim_interfaces/motorsim_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.492s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/lib/python3.10/site-packages/motorsim_interfaces/motorsim_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.492s] -- Set runtime path of "/home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/lib/python3.10/site-packages/motorsim_interfaces/motorsim_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.492s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/lib/libmotorsim_interfaces__rosidl_generator_py.so
+[4.499s] -- Set runtime path of "/home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/lib/libmotorsim_interfaces__rosidl_generator_py.so" to ""
+[4.499s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/motorsim_interfaces/srv/MotorSpawn.idl
+[4.499s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/motorsim_interfaces/srv/MotorSpawn.srv
+[4.499s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/motorsim_interfaces/srv/MotorSpawn_Request.msg
+[4.499s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/motorsim_interfaces/srv/MotorSpawn_Response.msg
+[4.499s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/ament_index/resource_index/package_run_dependencies/motorsim_interfaces
+[4.499s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/ament_index/resource_index/parent_prefix_path/motorsim_interfaces
+[4.499s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/motorsim_interfaces/environment/ament_prefix_path.sh
+[4.499s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/motorsim_interfaces/environment/ament_prefix_path.dsv
+[4.499s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/motorsim_interfaces/environment/path.sh
+[4.499s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/motorsim_interfaces/environment/path.dsv
+[4.499s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/motorsim_interfaces/local_setup.bash
+[4.500s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/motorsim_interfaces/local_setup.sh
+[4.500s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/motorsim_interfaces/local_setup.zsh
+[4.500s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/motorsim_interfaces/local_setup.dsv
+[4.500s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/motorsim_interfaces/package.dsv
+[4.500s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/ament_index/resource_index/packages/motorsim_interfaces
+[4.500s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/motorsim_interfaces/cmake/export_motorsim_interfaces__rosidl_generator_cExport.cmake
+[4.500s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/motorsim_interfaces/cmake/export_motorsim_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.500s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/motorsim_interfaces/cmake/export_motorsim_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.500s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/motorsim_interfaces/cmake/export_motorsim_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.500s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/motorsim_interfaces/cmake/motorsim_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.500s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/motorsim_interfaces/cmake/motorsim_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.500s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/motorsim_interfaces/cmake/motorsim_interfaces__rosidl_typesupport_cExport.cmake
+[4.500s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/motorsim_interfaces/cmake/motorsim_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.500s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/motorsim_interfaces/cmake/export_motorsim_interfaces__rosidl_generator_cppExport.cmake
+[4.500s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/motorsim_interfaces/cmake/export_motorsim_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.500s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/motorsim_interfaces/cmake/export_motorsim_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.501s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/motorsim_interfaces/cmake/motorsim_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.501s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/motorsim_interfaces/cmake/motorsim_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.501s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/motorsim_interfaces/cmake/motorsim_interfaces__rosidl_typesupport_cppExport.cmake
+[4.501s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/motorsim_interfaces/cmake/motorsim_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.501s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/motorsim_interfaces/cmake/export_motorsim_interfaces__rosidl_generator_pyExport.cmake
+[4.501s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/motorsim_interfaces/cmake/export_motorsim_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.501s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/motorsim_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.501s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/motorsim_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.501s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/motorsim_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.501s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/motorsim_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.501s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/motorsim_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.501s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/motorsim_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.501s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/motorsim_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.501s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/motorsim_interfaces/cmake/motorsim_interfacesConfig.cmake
+[4.501s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/motorsim_interfaces/cmake/motorsim_interfacesConfig-version.cmake
+[4.501s] -- Installing: /home/kireiji/RoboticsDev_ws/install/motorsim_interfaces/share/motorsim_interfaces/package.xml
+[4.503s] Invoked command in '/home/kireiji/RoboticsDev_ws/build/motorsim_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kireiji/RoboticsDev_ws/install/turtlesim_plus:/home/kireiji/RoboticsDev_ws/install/launch_testing_examples:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_pointcloud_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_subscriber:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_service:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_guard_conditions:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_executors:/home/kireiji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/kireiji/RoboticsDev_ws/build/motorsim_interfaces

@@ -1,0 +1,7 @@
+{
+  "package_name": "temp",
+  "non_idl_tuples": [
+    "/home/kireiji/RoboticsDev_ws/src/temp:msg/Test.msg",
+    "/home/kireiji/RoboticsDev_ws/src/temp:srv/Test.srv"
+  ]
+}

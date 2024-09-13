@@ -1,0 +1,9 @@
+{
+  "package_name": "turtlesim_plus_interfaces",
+  "non_idl_tuples": [
+    "/home/kireiji/RoboticsDev_ws/src/turtlesim_plus/turtlesim_plus_interfaces:msg/ScannerData.msg",
+    "/home/kireiji/RoboticsDev_ws/src/turtlesim_plus/turtlesim_plus_interfaces:msg/ScannerDataArray.msg",
+    "/home/kireiji/RoboticsDev_ws/src/turtlesim_plus/turtlesim_plus_interfaces:srv/GivePosition.srv",
+    "/home/kireiji/RoboticsDev_ws/src/turtlesim_plus/turtlesim_plus_interfaces:action/GetData.action"
+  ]
+}

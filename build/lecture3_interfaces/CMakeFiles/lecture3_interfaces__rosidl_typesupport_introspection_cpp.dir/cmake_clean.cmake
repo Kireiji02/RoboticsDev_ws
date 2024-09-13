@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/lecture3_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lecture3_interfaces/msg/detail/example_msg__type_support.cpp.o"
+  "CMakeFiles/lecture3_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lecture3_interfaces/msg/detail/example_msg__type_support.cpp.o.d"
+  "CMakeFiles/lecture3_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lecture3_interfaces/srv/detail/example_srv__type_support.cpp.o"
+  "CMakeFiles/lecture3_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lecture3_interfaces/srv/detail/example_srv__type_support.cpp.o.d"
+  "liblecture3_interfaces__rosidl_typesupport_introspection_cpp.pdb"
+  "liblecture3_interfaces__rosidl_typesupport_introspection_cpp.so"
+  "rosidl_typesupport_introspection_cpp/lecture3_interfaces/msg/detail/example_msg__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/lecture3_interfaces/msg/detail/example_msg__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/lecture3_interfaces/srv/detail/example_srv__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/lecture3_interfaces/srv/detail/example_srv__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/lecture3_interfaces__rosidl_typesupport_introspection_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

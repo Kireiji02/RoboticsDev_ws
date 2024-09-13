@@ -1,0 +1,7 @@
+setup.py
+lecture2/__init__.py
+lecture2/dummy_module.py
+lecture2.egg-info/PKG-INFO
+lecture2.egg-info/SOURCES.txt
+lecture2.egg-info/dependency_links.txt
+lecture2.egg-info/top_level.txt

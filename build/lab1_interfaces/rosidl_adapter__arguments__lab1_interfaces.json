@@ -1,0 +1,6 @@
+{
+  "package_name": "lab1_interfaces",
+  "non_idl_tuples": [
+    "/home/kireiji/RoboticsDev_ws/src/lab1_interfaces:srv/SetNoise.srv"
+  ]
+}

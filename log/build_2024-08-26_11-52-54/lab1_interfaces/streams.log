@@ -1,0 +1,35 @@
+[0.009s] Invoking command in '/home/kireiji/RoboticsDev_ws/build/lab1_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kireiji/RoboticsDev_ws/install/launch_testing_examples:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_pointcloud_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_subscriber:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_service:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_guard_conditions:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_executors:/home/kireiji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/kireiji/RoboticsDev_ws/src/lab1_interfaces -DCMAKE_INSTALL_PREFIX=/home/kireiji/RoboticsDev_ws/install/lab1_interfaces
+[0.090s] -- The C compiler identification is GNU 11.4.0
+[0.156s] -- The CXX compiler identification is GNU 11.4.0
+[0.163s] -- Detecting C compiler ABI info
+[0.208s] -- Detecting C compiler ABI info - done
+[0.212s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.213s] -- Detecting C compile features
+[0.213s] -- Detecting C compile features - done
+[0.216s] -- Detecting CXX compiler ABI info
+[0.265s] -- Detecting CXX compiler ABI info - done
+[0.270s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.270s] -- Detecting CXX compile features
+[0.270s] -- Detecting CXX compile features - done
+[0.278s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.686s] -- Found Python3: /usr/local/bin/python3 (found version "3.10.0") found components: Interpreter 
+[0.786s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.786s]   By not providing "Findstds_msgs.cmake" in CMAKE_MODULE_PATH this project
+[0.786s]   has asked CMake to find a package configuration file provided by
+[0.786s]   "stds_msgs", but CMake did not find one.
+[0.786s] 
+[0.786s]   Could not find a package configuration file provided by "stds_msgs" with
+[0.786s]   any of the following names:
+[0.786s] 
+[0.786s]     stds_msgsConfig.cmake
+[0.786s]     stds_msgs-config.cmake
+[0.786s] 
+[0.786s]   Add the installation prefix of "stds_msgs" to CMAKE_PREFIX_PATH or set
+[0.786s]   "stds_msgs_DIR" to a directory containing one of the above files.  If
+[0.786s]   "stds_msgs" provides a separate development package or SDK, be sure it has
+[0.786s]   been installed.
+[0.786s] 
+[0.786s] [0m
+[0.786s] -- Configuring incomplete, errors occurred!
+[0.787s] See also "/home/kireiji/RoboticsDev_ws/build/lab1_interfaces/CMakeFiles/CMakeOutput.log".
+[0.789s] Invoked command in '/home/kireiji/RoboticsDev_ws/build/lab1_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kireiji/RoboticsDev_ws/install/launch_testing_examples:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_pointcloud_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_subscriber:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_service:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_guard_conditions:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_executors:/home/kireiji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/kireiji/RoboticsDev_ws/src/lab1_interfaces -DCMAKE_INSTALL_PREFIX=/home/kireiji/RoboticsDev_ws/install/lab1_interfaces

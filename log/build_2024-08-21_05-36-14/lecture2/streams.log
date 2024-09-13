@@ -1,0 +1,46 @@
+[1.068s] Invoking command in '/home/kireiji/RoboticsDev_ws/build/lecture2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kireiji/RoboticsDev_ws/install/launch_testing_examples:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_pointcloud_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_subscriber:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_service:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_guard_conditions:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_executors:/home/kireiji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/kireiji/RoboticsDev_ws/build/lecture2 -- -j16 -l16
+[1.112s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node_test.dir/src/cpp_node.cpp.o[0m
+[1.115s] [ 50%] Built target ament_cmake_python_copy_lecture2
+[1.345s] running egg_info
+[1.345s] creating lecture2.egg-info
+[1.346s] writing manifest file 'lecture2.egg-info/SOURCES.txt'
+[1.348s] writing manifest file 'lecture2.egg-info/SOURCES.txt'
+[1.377s] [ 50%] Built target ament_cmake_python_build_lecture2_egg
+[1.468s] [100%] [32m[1mLinking CXX executable cpp_node_test[0m
+[1.740s] [100%] Built target cpp_node_test
+[1.754s] Invoked command in '/home/kireiji/RoboticsDev_ws/build/lecture2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kireiji/RoboticsDev_ws/install/launch_testing_examples:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_pointcloud_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_subscriber:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_service:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_guard_conditions:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_executors:/home/kireiji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/kireiji/RoboticsDev_ws/build/lecture2 -- -j16 -l16
+[1.775s] Invoking command in '/home/kireiji/RoboticsDev_ws/build/lecture2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kireiji/RoboticsDev_ws/install/launch_testing_examples:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_pointcloud_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_subscriber:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_service:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_guard_conditions:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_executors:/home/kireiji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/kireiji/RoboticsDev_ws/build/lecture2
+[1.782s] -- Install configuration: ""
+[1.782s] -- Installing: /home/kireiji/RoboticsDev_ws/install/lecture2/share/lecture2/environment/pythonpath.sh
+[1.782s] -- Installing: /home/kireiji/RoboticsDev_ws/install/lecture2/share/lecture2/environment/pythonpath.dsv
+[1.782s] -- Installing: /home/kireiji/RoboticsDev_ws/install/lecture2/lib/python3.10/site-packages/lecture2-0.0.0-py3.10.egg-info
+[1.782s] -- Installing: /home/kireiji/RoboticsDev_ws/install/lecture2/lib/python3.10/site-packages/lecture2-0.0.0-py3.10.egg-info/PKG-INFO
+[1.783s] -- Installing: /home/kireiji/RoboticsDev_ws/install/lecture2/lib/python3.10/site-packages/lecture2-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.783s] -- Installing: /home/kireiji/RoboticsDev_ws/install/lecture2/lib/python3.10/site-packages/lecture2-0.0.0-py3.10.egg-info/top_level.txt
+[1.783s] -- Installing: /home/kireiji/RoboticsDev_ws/install/lecture2/lib/python3.10/site-packages/lecture2-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.783s] -- Installing: /home/kireiji/RoboticsDev_ws/install/lecture2/lib/python3.10/site-packages/lecture2
+[1.783s] -- Installing: /home/kireiji/RoboticsDev_ws/install/lecture2/lib/python3.10/site-packages/lecture2/__init__.py
+[1.783s] -- Installing: /home/kireiji/RoboticsDev_ws/install/lecture2/lib/python3.10/site-packages/lecture2/dummy_module.py
+[1.815s] Listing '/home/kireiji/RoboticsDev_ws/install/lecture2/lib/python3.10/site-packages/lecture2'...
+[1.815s] Compiling '/home/kireiji/RoboticsDev_ws/install/lecture2/lib/python3.10/site-packages/lecture2/__init__.py'...
+[1.815s] Compiling '/home/kireiji/RoboticsDev_ws/install/lecture2/lib/python3.10/site-packages/lecture2/dummy_module.py'...
+[1.819s] -- Installing: /home/kireiji/RoboticsDev_ws/install/lecture2/lib/lecture2/dummy_script.py
+[1.819s] -- Installing: /home/kireiji/RoboticsDev_ws/install/lecture2/lib/lecture2/cpp_node_test
+[1.819s] -- Set runtime path of "/home/kireiji/RoboticsDev_ws/install/lecture2/lib/lecture2/cpp_node_test" to ""
+[1.819s] -- Up-to-date: /home/kireiji/RoboticsDev_ws/install/lecture2/share/lecture2
+[1.819s] -- Installing: /home/kireiji/RoboticsDev_ws/install/lecture2/share/ament_index/resource_index/package_run_dependencies/lecture2
+[1.819s] -- Installing: /home/kireiji/RoboticsDev_ws/install/lecture2/share/ament_index/resource_index/parent_prefix_path/lecture2
+[1.820s] -- Installing: /home/kireiji/RoboticsDev_ws/install/lecture2/share/lecture2/environment/ament_prefix_path.sh
+[1.820s] -- Installing: /home/kireiji/RoboticsDev_ws/install/lecture2/share/lecture2/environment/ament_prefix_path.dsv
+[1.820s] -- Installing: /home/kireiji/RoboticsDev_ws/install/lecture2/share/lecture2/environment/path.sh
+[1.820s] -- Installing: /home/kireiji/RoboticsDev_ws/install/lecture2/share/lecture2/environment/path.dsv
+[1.820s] -- Installing: /home/kireiji/RoboticsDev_ws/install/lecture2/share/lecture2/local_setup.bash
+[1.820s] -- Installing: /home/kireiji/RoboticsDev_ws/install/lecture2/share/lecture2/local_setup.sh
+[1.820s] -- Installing: /home/kireiji/RoboticsDev_ws/install/lecture2/share/lecture2/local_setup.zsh
+[1.820s] -- Installing: /home/kireiji/RoboticsDev_ws/install/lecture2/share/lecture2/local_setup.dsv
+[1.820s] -- Installing: /home/kireiji/RoboticsDev_ws/install/lecture2/share/lecture2/package.dsv
+[1.820s] -- Installing: /home/kireiji/RoboticsDev_ws/install/lecture2/share/ament_index/resource_index/packages/lecture2
+[1.821s] -- Installing: /home/kireiji/RoboticsDev_ws/install/lecture2/share/lecture2/cmake/lecture2Config.cmake
+[1.821s] -- Installing: /home/kireiji/RoboticsDev_ws/install/lecture2/share/lecture2/cmake/lecture2Config-version.cmake
+[1.821s] -- Installing: /home/kireiji/RoboticsDev_ws/install/lecture2/share/lecture2/package.xml
+[1.823s] Invoked command in '/home/kireiji/RoboticsDev_ws/build/lecture2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kireiji/RoboticsDev_ws/install/launch_testing_examples:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_pointcloud_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_subscriber:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_service:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_guard_conditions:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_executors:/home/kireiji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/kireiji/RoboticsDev_ws/build/lecture2

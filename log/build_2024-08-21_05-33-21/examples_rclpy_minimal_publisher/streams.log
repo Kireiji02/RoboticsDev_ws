@@ -1,0 +1,45 @@
+[5.425s] Invoking command in '/home/kireiji/RoboticsDev_ws/src/examples/rclpy/topics/minimal_publisher': PYTHONPATH=/home/kireiji/RoboticsDev_ws/build/examples_rclpy_minimal_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/kireiji/RoboticsDev_ws/build/examples_rclpy_minimal_publisher/build install --record /home/kireiji/RoboticsDev_ws/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed install_data
+[23.239s] running egg_info
+[23.239s] creating ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info
+[23.239s] writing ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/PKG-INFO
+[23.249s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/dependency_links.txt
+[23.249s] writing entry points to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/entry_points.txt
+[23.249s] writing requirements to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/requires.txt
+[23.249s] writing top-level names to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/top_level.txt
+[23.249s] writing manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[23.250s] reading manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[23.250s] writing manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[23.250s] running build
+[23.250s] running build_py
+[23.250s] creating /home/kireiji/RoboticsDev_ws/build/examples_rclpy_minimal_publisher/build
+[23.250s] creating /home/kireiji/RoboticsDev_ws/build/examples_rclpy_minimal_publisher/build/lib
+[23.250s] creating /home/kireiji/RoboticsDev_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[23.250s] copying examples_rclpy_minimal_publisher/publisher_local_function.py -> /home/kireiji/RoboticsDev_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[23.250s] copying examples_rclpy_minimal_publisher/__init__.py -> /home/kireiji/RoboticsDev_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[23.250s] copying examples_rclpy_minimal_publisher/publisher_member_function.py -> /home/kireiji/RoboticsDev_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[23.250s] copying examples_rclpy_minimal_publisher/publisher_old_school.py -> /home/kireiji/RoboticsDev_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[23.250s] running install
+[23.250s] running install_lib
+[23.250s] creating /home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[23.250s] copying /home/kireiji/RoboticsDev_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_local_function.py -> /home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[23.251s] copying /home/kireiji/RoboticsDev_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/__init__.py -> /home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[23.251s] copying /home/kireiji/RoboticsDev_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_member_function.py -> /home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[23.251s] copying /home/kireiji/RoboticsDev_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_old_school.py -> /home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[23.251s] byte-compiling /home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/publisher_local_function.py to publisher_local_function.cpython-310.pyc
+[23.251s] byte-compiling /home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/__init__.py to __init__.cpython-310.pyc
+[23.251s] byte-compiling /home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[23.251s] byte-compiling /home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/publisher_old_school.py to publisher_old_school.cpython-310.pyc
+[23.251s] running install_data
+[23.251s] creating /home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher/share/ament_index
+[23.251s] creating /home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index
+[23.251s] creating /home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index/packages
+[23.251s] copying resource/examples_rclpy_minimal_publisher -> /home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index/packages
+[23.251s] copying package.xml -> /home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher/share/examples_rclpy_minimal_publisher
+[23.251s] running install_egg_info
+[23.251s] Copying ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info to /home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher-0.15.2-py3.10.egg-info
+[23.252s] running install_scripts
+[23.252s] Installing publisher_local_function script to /home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[23.252s] Installing publisher_member_function script to /home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[23.252s] Installing publisher_old_school script to /home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[23.252s] writing list of installed files to '/home/kireiji/RoboticsDev_ws/build/examples_rclpy_minimal_publisher/install.log'
+[23.290s] Invoked command in '/home/kireiji/RoboticsDev_ws/src/examples/rclpy/topics/minimal_publisher' returned '0': PYTHONPATH=/home/kireiji/RoboticsDev_ws/build/examples_rclpy_minimal_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/kireiji/RoboticsDev_ws/build/examples_rclpy_minimal_publisher/build install --record /home/kireiji/RoboticsDev_ws/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed install_data

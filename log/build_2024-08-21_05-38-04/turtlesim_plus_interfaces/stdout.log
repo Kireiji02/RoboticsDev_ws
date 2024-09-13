@@ -1,0 +1,6 @@
+[  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  3%] Built target ament_cmake_python_copy_turtlesim_plus_interfaces
+running egg_info
+writing manifest file 'turtlesim_plus_interfaces.egg-info/SOURCES.txt'
+[  3%] Built target ament_cmake_python_build_turtlesim_plus_interfaces_egg

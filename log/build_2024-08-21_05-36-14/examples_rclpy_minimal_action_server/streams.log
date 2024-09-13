@@ -1,0 +1,25 @@
+[2.098s] Invoking command in '/home/kireiji/RoboticsDev_ws/src/examples/rclpy/actions/minimal_action_server': PYTHONPATH=/home/kireiji/RoboticsDev_ws/build/examples_rclpy_minimal_action_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /home/kireiji/RoboticsDev_ws/build/examples_rclpy_minimal_action_server/build install --record /home/kireiji/RoboticsDev_ws/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed install_data
+[2.426s] running egg_info
+[2.429s] writing ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/PKG-INFO
+[2.429s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/dependency_links.txt
+[2.429s] writing entry points to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/entry_points.txt
+[2.429s] writing requirements to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/requires.txt
+[2.429s] writing top-level names to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/top_level.txt
+[2.431s] reading manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[2.432s] writing manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[2.432s] running build
+[2.432s] running build_py
+[2.433s] running install
+[2.433s] running install_lib
+[2.435s] running install_data
+[2.435s] running install_egg_info
+[2.438s] removing '/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server-0.15.2-py3.10.egg-info' (and everything under it)
+[2.438s] Copying ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info to /home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server-0.15.2-py3.10.egg-info
+[2.439s] running install_scripts
+[2.468s] Installing server script to /home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[2.468s] Installing server_defer script to /home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[2.468s] Installing server_not_composable script to /home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[2.468s] Installing server_queue_goals script to /home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[2.468s] Installing server_single_goal script to /home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[2.469s] writing list of installed files to '/home/kireiji/RoboticsDev_ws/build/examples_rclpy_minimal_action_server/install.log'
+[2.531s] Invoked command in '/home/kireiji/RoboticsDev_ws/src/examples/rclpy/actions/minimal_action_server' returned '0': PYTHONPATH=/home/kireiji/RoboticsDev_ws/build/examples_rclpy_minimal_action_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /home/kireiji/RoboticsDev_ws/build/examples_rclpy_minimal_action_server/build install --record /home/kireiji/RoboticsDev_ws/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed install_data

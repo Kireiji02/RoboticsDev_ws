@@ -1,0 +1,7 @@
+{
+  "package_name": "lecture3_interfaces",
+  "non_idl_tuples": [
+    "/home/kireiji/RoboticsDev_ws/src/lecture3_interfaces:msg/ExampleMsg.msg",
+    "/home/kireiji/RoboticsDev_ws/src/lecture3_interfaces:srv/ExampleSrv.srv"
+  ]
+}

@@ -1,0 +1,33 @@
+[35m[1mConsolidate compiler generated dependencies of target ping[0m
+[35m[1mConsolidate compiler generated dependencies of target pong[0m
+[35m[1mConsolidate compiler generated dependencies of target ping_pong[0m
+[ 30%] Built target ping
+[ 60%] Built target pong
+[100%] Built target ping_pong
+-- Install configuration: ""
+-- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping
+-- Set runtime path of "/home/kireiji/RoboticsDev_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping" to ""
+-- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/pong
+-- Set runtime path of "/home/kireiji/RoboticsDev_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/pong" to ""
+-- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping_pong
+-- Set runtime path of "/home/kireiji/RoboticsDev_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping_pong" to ""
+-- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_cbg_executor/include
+-- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor
+-- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/ping_node.hpp
+-- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/pong_node.hpp
+-- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_cbg_executor
+-- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_cbg_executor
+-- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.sh
+-- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.dsv
+-- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.sh
+-- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.dsv
+-- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.bash
+-- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.sh
+-- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.zsh
+-- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.dsv
+-- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.dsv
+-- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/packages/examples_rclcpp_cbg_executor
+-- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig.cmake
+-- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig-version.cmake
+-- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.xml

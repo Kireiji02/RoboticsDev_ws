@@ -1,0 +1,19 @@
+[1.789s] Invoking command in '/home/kireiji/RoboticsDev_ws/src/examples/launch_testing/launch_testing_examples': PYTHONPATH=/home/kireiji/RoboticsDev_ws/build/launch_testing_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kireiji/RoboticsDev_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/launch_testing_examples build --build-base /home/kireiji/RoboticsDev_ws/build/launch_testing_examples/build install --record /home/kireiji/RoboticsDev_ws/build/launch_testing_examples/install.log --single-version-externally-managed install_data
+[2.101s] running egg_info
+[2.101s] writing ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/PKG-INFO
+[2.102s] writing dependency_links to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/dependency_links.txt
+[2.102s] writing entry points to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/entry_points.txt
+[2.102s] writing requirements to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/requires.txt
+[2.102s] writing top-level names to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/top_level.txt
+[2.103s] reading manifest file '../../../../build/launch_testing_examples/launch_testing_examples.egg-info/SOURCES.txt'
+[2.104s] writing manifest file '../../../../build/launch_testing_examples/launch_testing_examples.egg-info/SOURCES.txt'
+[2.104s] running build
+[2.104s] running build_py
+[2.104s] running install
+[2.105s] running install_lib
+[2.106s] running install_data
+[2.106s] running install_egg_info
+[2.107s] removing '/home/kireiji/RoboticsDev_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples-0.15.2-py3.10.egg-info' (and everything under it)
+[2.107s] Copying ../../../../build/launch_testing_examples/launch_testing_examples.egg-info to /home/kireiji/RoboticsDev_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples-0.15.2-py3.10.egg-info
+[2.107s] running install_scripts
+[2.122s] writing list of installed files to '/home/kireiji/RoboticsDev_ws/build/launch_testing_examples/install.log'

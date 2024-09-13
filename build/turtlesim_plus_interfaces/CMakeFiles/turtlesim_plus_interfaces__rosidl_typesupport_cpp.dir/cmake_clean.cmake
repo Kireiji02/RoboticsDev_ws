@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/turtlesim_plus_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim_plus_interfaces/action/get_data__type_support.cpp.o"
+  "CMakeFiles/turtlesim_plus_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim_plus_interfaces/action/get_data__type_support.cpp.o.d"
+  "CMakeFiles/turtlesim_plus_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim_plus_interfaces/msg/scanner_data__type_support.cpp.o"
+  "CMakeFiles/turtlesim_plus_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim_plus_interfaces/msg/scanner_data__type_support.cpp.o.d"
+  "CMakeFiles/turtlesim_plus_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim_plus_interfaces/msg/scanner_data_array__type_support.cpp.o"
+  "CMakeFiles/turtlesim_plus_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim_plus_interfaces/msg/scanner_data_array__type_support.cpp.o.d"
+  "CMakeFiles/turtlesim_plus_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim_plus_interfaces/srv/give_position__type_support.cpp.o"
+  "CMakeFiles/turtlesim_plus_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim_plus_interfaces/srv/give_position__type_support.cpp.o.d"
+  "libturtlesim_plus_interfaces__rosidl_typesupport_cpp.pdb"
+  "libturtlesim_plus_interfaces__rosidl_typesupport_cpp.so"
+  "rosidl_typesupport_cpp/turtlesim_plus_interfaces/action/get_data__type_support.cpp"
+  "rosidl_typesupport_cpp/turtlesim_plus_interfaces/msg/scanner_data__type_support.cpp"
+  "rosidl_typesupport_cpp/turtlesim_plus_interfaces/msg/scanner_data_array__type_support.cpp"
+  "rosidl_typesupport_cpp/turtlesim_plus_interfaces/srv/give_position__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/turtlesim_plus_interfaces__rosidl_typesupport_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

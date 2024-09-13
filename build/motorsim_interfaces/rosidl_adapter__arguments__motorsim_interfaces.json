@@ -1,0 +1,6 @@
+{
+  "package_name": "motorsim_interfaces",
+  "non_idl_tuples": [
+    "/home/kireiji/RoboticsDev_ws/src/motorsim_interfaces:srv/MotorSpawn.srv"
+  ]
+}

@@ -1,0 +1,34 @@
+[35m[1mConsolidate compiler generated dependencies of target composition_nodes[0m
+[ 33%] Built target composition_nodes
+[35m[1mConsolidate compiler generated dependencies of target composition_subscriber[0m
+[35m[1mConsolidate compiler generated dependencies of target composition_publisher[0m
+[35m[1mConsolidate compiler generated dependencies of target composition_composed[0m
+[ 55%] Built target composition_subscriber
+[ 77%] Built target composition_publisher
+[100%] Built target composition_composed
+-- Install configuration: ""
+-- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.sh
+-- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.dsv
+-- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so
+-- Set runtime path of "/home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so" to ""
+-- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher
+-- Set runtime path of "/home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher" to ""
+-- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber
+-- Set runtime path of "/home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber" to ""
+-- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed
+-- Set runtime path of "/home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed" to ""
+-- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_composition
+-- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_composition
+-- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.sh
+-- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.dsv
+-- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.sh
+-- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.dsv
+-- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.bash
+-- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.sh
+-- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.zsh
+-- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.dsv
+-- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.dsv
+-- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/packages/examples_rclcpp_minimal_composition
+-- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig.cmake
+-- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig-version.cmake
+-- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.xml

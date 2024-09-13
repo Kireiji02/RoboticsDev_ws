@@ -1,0 +1,8 @@
+setup.py
+turtlesim_plus/__init__.py
+turtlesim_plus/entity.py
+turtlesim_plus/ros2_plugins.py
+turtlesim_plus.egg-info/PKG-INFO
+turtlesim_plus.egg-info/SOURCES.txt
+turtlesim_plus.egg-info/dependency_links.txt
+turtlesim_plus.egg-info/top_level.txt

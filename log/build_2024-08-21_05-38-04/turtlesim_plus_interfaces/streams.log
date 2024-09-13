@@ -1,0 +1,34 @@
+[0.008s] Invoking command in '/home/kireiji/RoboticsDev_ws/build/turtlesim_plus_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kireiji/RoboticsDev_ws/install/launch_testing_examples:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_pointcloud_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_subscriber:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_service:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_guard_conditions:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_executors:/home/kireiji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/kireiji/RoboticsDev_ws/build/turtlesim_plus_interfaces -- -j16 -l16
+[0.033s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.039s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.043s] [  3%] Built target ament_cmake_python_copy_turtlesim_plus_interfaces
+[0.073s] Traceback (most recent call last):
+[0.073s]   File "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 8, in <module>
+[0.073s]     from rosidl_generator_c import generate_c
+[0.073s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_c/__init__.py", line 15, in <module>
+[0.073s]     from rosidl_cmake import convert_camel_case_to_lower_case_underscore
+[0.073s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 24, in <module>
+[0.073s]     from rosidl_parser.parser import parse_idl_file
+[0.073s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 20, in <module>
+[0.073s]     from lark import Lark
+[0.074s] ModuleNotFoundError: No module named 'lark'
+[0.077s] gmake[2]: *** [CMakeFiles/turtlesim_plus_interfaces__rosidl_generator_c.dir/build.make:97: rosidl_generator_c/turtlesim_plus_interfaces/msg/scanner_data.h] Error 1
+[0.077s] gmake[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/turtlesim_plus_interfaces__rosidl_generator_c.dir/all] Error 2
+[0.078s] gmake[1]: *** Waiting for unfinished jobs....
+[0.079s] Traceback (most recent call last):
+[0.079s]   File "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 8, in <module>
+[0.079s]     from rosidl_generator_cpp import generate_cpp
+[0.079s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py", line 17, in <module>
+[0.079s]     from rosidl_cmake import generate_files
+[0.079s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 24, in <module>
+[0.079s]     from rosidl_parser.parser import parse_idl_file
+[0.079s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 20, in <module>
+[0.079s]     from lark import Lark
+[0.079s] ModuleNotFoundError: No module named 'lark'
+[0.083s] gmake[2]: *** [CMakeFiles/turtlesim_plus_interfaces__cpp.dir/build.make:113: rosidl_generator_cpp/turtlesim_plus_interfaces/msg/scanner_data.hpp] Error 1
+[0.083s] gmake[1]: *** [CMakeFiles/Makefile2:317: CMakeFiles/turtlesim_plus_interfaces__cpp.dir/all] Error 2
+[0.194s] running egg_info
+[0.196s] writing manifest file 'turtlesim_plus_interfaces.egg-info/SOURCES.txt'
+[0.212s] [  3%] Built target ament_cmake_python_build_turtlesim_plus_interfaces_egg
+[0.213s] gmake: *** [Makefile:146: all] Error 2
+[0.215s] Invoked command in '/home/kireiji/RoboticsDev_ws/build/turtlesim_plus_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kireiji/RoboticsDev_ws/install/launch_testing_examples:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_pointcloud_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_subscriber:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_service:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_guard_conditions:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_executors:/home/kireiji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/kireiji/RoboticsDev_ws/build/turtlesim_plus_interfaces -- -j16 -l16

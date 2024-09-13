@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from turtlesim_plus_interfaces/msg/ScannerDataArray.msg
+// generated code does not contain a copyright notice
+
+#include "turtlesim_plus_interfaces/msg/ScannerData.idl"
+
+module turtlesim_plus_interfaces {
+  module msg {
+    struct ScannerDataArray {
+      sequence<turtlesim_plus_interfaces::msg::ScannerData> data;
+    };
+  };
+};
