@@ -1,0 +1,44 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/tim/RoboticsDev_ws/install/turtlesim_plus_interfaces/include/**",
+        "/home/tim/RoboticsDev_ws/install/temp/include/**",
+        "/home/tim/RoboticsDev_ws/install/motorsim_interfaces/include/**",
+        "/home/tim/RoboticsDev_ws/install/lecture3_interfaces/include/**",
+        "/home/tim/RoboticsDev_ws/install/lab1_interfaces/include/**",
+        "/home/tim/RoboticsDev_ws/install/examples_rclcpp_cbg_executor/include/**",
+        "/home/tim/RoboticsDev_ws/install/controller_interfaces/include/**",
+        "/home/tim/ros2_ws/install/my_robot_interfaces/include/**",
+        "/home/tim/RoboticsDev2024-fun2/install/turtlesim_plus_interfaces/include/**",
+        "/home/tim/RoboticsDev2024-fun2/install/controller_interfaces/include/**",
+        "/home/tim/robotdev/install/turtlesim_plus_interfaces/include/**",
+        "/home/tim/robotdev/install/test_interfaces/include/**",
+        "/home/tim/robotdev/install/lab1_interfaces/include/**",
+        "/home/tim/robotdev/install/examples_rclcpp_cbg_executor/include/**",
+        "/home/tim/RoboticsDev2024/install/motorsim_interfaces/include/**",
+        "/home/tim/wrg_turtlebot3_ws/install/turtlebot3_gazebo/include/**",
+        "/home/tim/wrg_turtlebot3_ws/install/turtlebot3_fake_node/include/**",
+        "/home/tim/turtlebot3_ws/install/turtlebot3_gazebo/include/**",
+        "/home/tim/turtlebot3_ws/install/turtlebot3_fake_node/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/tim/RoboticsDev_ws/src/lab1/include/**",
+        "/home/tim/RoboticsDev_ws/src/lecture2/include/**",
+        "/home/tim/RoboticsDev_ws/src/lecture3/include/**",
+        "/home/tim/RoboticsDev_ws/src/motorsim/include/**",
+        "/home/tim/RoboticsDev_ws/src/turtle_bringup/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
