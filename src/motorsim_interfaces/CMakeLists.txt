@@ -15,7 +15,7 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/MotorSpawn.srv"
-  "srv/Notidy.srv"
+  "srv/Notify.srv"
  )
 
 if(BUILD_TESTING)

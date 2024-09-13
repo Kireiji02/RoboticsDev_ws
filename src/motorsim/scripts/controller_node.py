@@ -3,10 +3,10 @@
 import rclpy
 from rclpy.node import Node
 from rcl_interfaces.msg import SetParametersResult
-from std_msgs.msg import Float64
+from std_msgs.msg import Float64, Bool
 from geometry_msgs.msg import Twist
 from motorsim.pid_controller import PIDController
-
+from motorsim_interfaces.srv import Notify
 
 class ControllerNode(Node):
     def __init__(self):
@@ -19,6 +19,9 @@ class ControllerNode(Node):
 
         self.freq = 100.0
 
+
+        self.call_notify_client = self.create_client(Notify, 'notify')
+        self.create_subscription(Bool, 'flag_seq',self.flag_callback,10)
         self.create_subscription(Float64, "target", self.target_callback, 10)
         # self.create_subscription(Twist, "motor_speed", self.fb_callback, 10)
         self.create_subscription(Float64, "motor_position", self.pos_fb_callback, 10)
@@ -35,6 +38,8 @@ class ControllerNode(Node):
         # self.feedback = 0.0
         self.pos_feedback = 0.0
         self.pos_target = 0.0
+
+        self.send_notification = True
       
         # Add callback for parameter changes
         self.add_on_set_parameters_callback(self.set_param_callback)
@@ -61,6 +66,18 @@ class ControllerNode(Node):
         # If all parameters are known, return success
         return SetParametersResult(successful=True)
     
+    def flag_callback(self,msg):
+        self.send_notification = msg.data
+
+    def call_notify_server(self,trig):
+        while not self.call_notify_server(1.0):
+            self.get_logger().warn("Waiting for Server Starting . . .")
+        
+        send_noti = Notify.Request()
+        send_noti.trig = trig
+        self.call_notify_client.call_async(send_noti)
+
+
     def pos_fb_callback(self, msg:Float64):
         self.pos_feedback = msg.data
 
@@ -77,6 +94,9 @@ class ControllerNode(Node):
         msg.data = error
         self.signal_publisher.publish(msg)
         self.get_logger().info(f'Pos: {self.pos_feedback} rad \n {error}')
+
+        if error <= 0.01:
+            self.call_notify_server(self.send_notification)
 
 def main(args=None):
     rclpy.init(args=args)
