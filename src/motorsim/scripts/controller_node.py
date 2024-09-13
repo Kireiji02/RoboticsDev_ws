@@ -21,6 +21,7 @@ class ControllerNode(Node):
 
         self.create_subscription(Twist, "cmd_vel", self.cmd_callback, 10)
         self.create_subscription(Twist, "motor_speed", self.fb_callback, 10)
+        self.create_subscription(Float64, "motor_position", self.pos_fb_callback, 10)
         self.signal_publisher = self.create_publisher(Float64, "control_signal", 10)
         self.create_timer(1.0 / self.freq, self.timer_callback)
 
@@ -32,6 +33,7 @@ class ControllerNode(Node):
         self.pid = PIDController(self.Kp, self.Ki, self.Kd, self.U_max)
         self.target = 0.0
         self.feedback = 0.0
+        self.pos_feedback = 0.0
 
         # Add callback for parameter changes
         self.add_on_set_parameters_callback(self.set_param_callback)
@@ -57,6 +59,9 @@ class ControllerNode(Node):
         self.pid.set_param(self.Kp, self.Ki, self.Kd, self.U_max)
         # If all parameters are known, return success
         return SetParametersResult(successful=True)
+    
+    def pos_fb_callback(self, msg:Float64):
+        self.pos_feedback = msg.data
 
     def cmd_callback(self, msg: Twist):
         self.target = msg.angular.z
@@ -69,6 +74,7 @@ class ControllerNode(Node):
         msg = Float64()
         msg.data = self.pid.compute(error)
         self.signal_publisher.publish(msg)
+        self.get_logger().info(f'\n Velo: {self.feedback} rad/s \n Pos: {self.pos_feedback} rad ')
 
 def main(args=None):
     rclpy.init(args=args)
