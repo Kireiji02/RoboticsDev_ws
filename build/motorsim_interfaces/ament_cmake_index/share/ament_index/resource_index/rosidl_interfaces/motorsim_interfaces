@@ -2,3 +2,7 @@ srv/MotorSpawn.idl
 srv/MotorSpawn.srv
 srv/MotorSpawn_Request.msg
 srv/MotorSpawn_Response.msg
+srv/Notify.idl
+srv/Notify.srv
+srv/Notify_Request.msg
+srv/Notify_Response.msg

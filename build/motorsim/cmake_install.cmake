@@ -74,6 +74,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/kireiji/RoboticsDev_ws/src/motorsim/scripts/controller_node.py"
     "/home/kireiji/RoboticsDev_ws/src/motorsim/scripts/encoder_node.py"
     "/home/kireiji/RoboticsDev_ws/src/motorsim/scripts/scheduler_node.py"
+    "/home/kireiji/RoboticsDev_ws/src/motorsim/scripts/random.py"
     )
 endif()
 

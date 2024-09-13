@@ -360,6 +360,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/motorsim_interfaces/srv" TYPE FILE FILES "/home/kireiji/RoboticsDev_ws/build/motorsim_interfaces/rosidl_adapter/motorsim_interfaces/srv/Notify.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/motorsim_interfaces/srv" TYPE FILE FILES "/home/kireiji/RoboticsDev_ws/src/motorsim_interfaces/srv/MotorSpawn.srv")
 endif()
 
@@ -369,6 +373,18 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/motorsim_interfaces/srv" TYPE FILE FILES "/home/kireiji/RoboticsDev_ws/build/motorsim_interfaces/rosidl_cmake/srv/MotorSpawn_Response.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/motorsim_interfaces/srv" TYPE FILE FILES "/home/kireiji/RoboticsDev_ws/src/motorsim_interfaces/srv/Notify.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/motorsim_interfaces/srv" TYPE FILE FILES "/home/kireiji/RoboticsDev_ws/build/motorsim_interfaces/rosidl_cmake/srv/Notify_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/motorsim_interfaces/srv" TYPE FILE FILES "/home/kireiji/RoboticsDev_ws/build/motorsim_interfaces/rosidl_cmake/srv/Notify_Response.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

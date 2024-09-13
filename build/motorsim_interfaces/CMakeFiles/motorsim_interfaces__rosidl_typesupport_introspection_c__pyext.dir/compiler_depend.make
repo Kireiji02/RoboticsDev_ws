@@ -248,8 +248,13 @@ CMakeFiles/motorsim_interfaces__rosidl_typesupport_introspection_c__pyext.dir/ro
   rosidl_generator_c/motorsim_interfaces/srv/detail/motor_spawn__struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
-  rosidl_generator_c/motorsim_interfaces/srv/detail/motor_spawn__functions.h
+  rosidl_generator_c/motorsim_interfaces/srv/detail/motor_spawn__functions.h \
+  rosidl_generator_c/motorsim_interfaces/srv/detail/notify__type_support.h \
+  rosidl_generator_c/motorsim_interfaces/srv/detail/notify__struct.h \
+  rosidl_generator_c/motorsim_interfaces/srv/detail/notify__functions.h
 
+
+rosidl_generator_c/motorsim_interfaces/srv/detail/notify__type_support.h:
 
 rosidl_generator_c/motorsim_interfaces/srv/detail/motor_spawn__type_support.h:
 
@@ -659,6 +664,8 @@ rosidl_generator_c/motorsim_interfaces/srv/detail/motor_spawn__struct.h:
 
 /usr/include/x86_64-linux-gnu/bits/confname.h:
 
+rosidl_generator_c/motorsim_interfaces/srv/detail/notify__functions.h:
+
 /usr/local/include/python3.10/pymem.h:
 
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
@@ -722,6 +729,8 @@ rosidl_generator_c/motorsim_interfaces/msg/rosidl_generator_c__visibility_contro
 /usr/local/include/python3.10/eval.h:
 
 /usr/include/x86_64-linux-gnu/asm/types.h:
+
+rosidl_generator_c/motorsim_interfaces/srv/detail/notify__struct.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
 

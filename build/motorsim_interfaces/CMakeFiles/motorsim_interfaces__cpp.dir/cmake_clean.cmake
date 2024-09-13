@@ -3,7 +3,11 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/motorsim_interfaces/srv/detail/motor_spawn__builder.hpp"
   "rosidl_generator_cpp/motorsim_interfaces/srv/detail/motor_spawn__struct.hpp"
   "rosidl_generator_cpp/motorsim_interfaces/srv/detail/motor_spawn__traits.hpp"
+  "rosidl_generator_cpp/motorsim_interfaces/srv/detail/notify__builder.hpp"
+  "rosidl_generator_cpp/motorsim_interfaces/srv/detail/notify__struct.hpp"
+  "rosidl_generator_cpp/motorsim_interfaces/srv/detail/notify__traits.hpp"
   "rosidl_generator_cpp/motorsim_interfaces/srv/motor_spawn.hpp"
+  "rosidl_generator_cpp/motorsim_interfaces/srv/notify.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

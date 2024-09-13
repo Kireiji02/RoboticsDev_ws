@@ -13,7 +13,7 @@ class SchedulerNode(Node):
 
         self.freq = 100.0
         
-        self.declare_parameter('target_pos',1000.0) # Array 
+        self.declare_parameter('target_pos',80.0) # Array 
         self.target_pos = self.get_parameter('target_pos').value
 
 
@@ -29,12 +29,16 @@ class SchedulerNode(Node):
         self.recieve_notification = request.trig
 
         if self.recieve_notification == True:
-            self.target_pos += 1000.0 # Need Changes
+            self.target_pos += 30.0 # Need Changes
             self.recieve_notification = False
-
-            send_to_controller = Bool()
-            send_to_controller.data = False
-            self.flag_pub_.publish(send_to_controller)
+            
+        target = Float64()
+        target.data = self.target_pos
+        self.target_pub_.publish(target)
+            
+        send_to_controller = Bool()
+        send_to_controller.data = False
+        self.flag_pub_.publish(send_to_controller)
         
         return respond
 

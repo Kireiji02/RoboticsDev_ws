@@ -15,6 +15,10 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/kireiji/RoboticsDev_ws/build/motorsim_interfaces/rosidl_generator_cpp/motorsim_interfaces/srv/detail/motor_spawn__builder.hpp" "/home/kireiji/RoboticsDev_ws/build/motorsim_interfaces/rosidl_generator_cpp/motorsim_interfaces/srv/motor_spawn.hpp"
   "/home/kireiji/RoboticsDev_ws/build/motorsim_interfaces/rosidl_generator_cpp/motorsim_interfaces/srv/detail/motor_spawn__struct.hpp" "/home/kireiji/RoboticsDev_ws/build/motorsim_interfaces/rosidl_generator_cpp/motorsim_interfaces/srv/motor_spawn.hpp"
   "/home/kireiji/RoboticsDev_ws/build/motorsim_interfaces/rosidl_generator_cpp/motorsim_interfaces/srv/detail/motor_spawn__traits.hpp" "/home/kireiji/RoboticsDev_ws/build/motorsim_interfaces/rosidl_generator_cpp/motorsim_interfaces/srv/motor_spawn.hpp"
+  "/home/kireiji/RoboticsDev_ws/build/motorsim_interfaces/rosidl_generator_cpp/motorsim_interfaces/srv/detail/notify__builder.hpp" "/home/kireiji/RoboticsDev_ws/build/motorsim_interfaces/rosidl_generator_cpp/motorsim_interfaces/srv/motor_spawn.hpp"
+  "/home/kireiji/RoboticsDev_ws/build/motorsim_interfaces/rosidl_generator_cpp/motorsim_interfaces/srv/detail/notify__struct.hpp" "/home/kireiji/RoboticsDev_ws/build/motorsim_interfaces/rosidl_generator_cpp/motorsim_interfaces/srv/motor_spawn.hpp"
+  "/home/kireiji/RoboticsDev_ws/build/motorsim_interfaces/rosidl_generator_cpp/motorsim_interfaces/srv/detail/notify__traits.hpp" "/home/kireiji/RoboticsDev_ws/build/motorsim_interfaces/rosidl_generator_cpp/motorsim_interfaces/srv/motor_spawn.hpp"
+  "/home/kireiji/RoboticsDev_ws/build/motorsim_interfaces/rosidl_generator_cpp/motorsim_interfaces/srv/notify.hpp" "/home/kireiji/RoboticsDev_ws/build/motorsim_interfaces/rosidl_generator_cpp/motorsim_interfaces/srv/motor_spawn.hpp"
   )
 
 

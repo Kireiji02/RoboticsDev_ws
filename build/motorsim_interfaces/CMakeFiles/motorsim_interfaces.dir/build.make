@@ -69,6 +69,9 @@ include CMakeFiles/motorsim_interfaces.dir/progress.make
 CMakeFiles/motorsim_interfaces: /home/kireiji/RoboticsDev_ws/src/motorsim_interfaces/srv/MotorSpawn.srv
 CMakeFiles/motorsim_interfaces: rosidl_cmake/srv/MotorSpawn_Request.msg
 CMakeFiles/motorsim_interfaces: rosidl_cmake/srv/MotorSpawn_Response.msg
+CMakeFiles/motorsim_interfaces: /home/kireiji/RoboticsDev_ws/src/motorsim_interfaces/srv/Notify.srv
+CMakeFiles/motorsim_interfaces: rosidl_cmake/srv/Notify_Request.msg
+CMakeFiles/motorsim_interfaces: rosidl_cmake/srv/Notify_Response.msg
 
 motorsim_interfaces: CMakeFiles/motorsim_interfaces
 motorsim_interfaces: CMakeFiles/motorsim_interfaces.dir/build.make

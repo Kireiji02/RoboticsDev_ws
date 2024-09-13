@@ -19,7 +19,7 @@ class ControllerNode(Node):
 
         self.freq = 100.0
 
-
+        
         self.call_notify_client = self.create_client(Notify, 'notify')
         self.create_subscription(Bool, 'flag_seq',self.flag_callback,10)
         self.create_subscription(Float64, "target", self.target_callback, 10)
@@ -39,7 +39,7 @@ class ControllerNode(Node):
         self.pos_feedback = 0.0
         self.pos_target = 0.0
 
-        self.send_notification = True
+        self.send_notification = None
       
         # Add callback for parameter changes
         self.add_on_set_parameters_callback(self.set_param_callback)
@@ -70,7 +70,7 @@ class ControllerNode(Node):
         self.send_notification = msg.data
 
     def call_notify_server(self,trig):
-        while not self.call_notify_server(1.0):
+        while not self.call_notify_client.wait_for_service(1.0):
             self.get_logger().warn("Waiting for Server Starting . . .")
         
         send_noti = Notify.Request()
@@ -93,7 +93,7 @@ class ControllerNode(Node):
         # msg.data = self.pid.compute(error)
         msg.data = error
         self.signal_publisher.publish(msg)
-        self.get_logger().info(f'Pos: {self.pos_feedback} rad \n {error}')
+        self.get_logger().info(f'Pos: {self.pos_feedback} rad \n {error} {self.pos_target}')
 
         if error <= 0.01:
             self.call_notify_server(self.send_notification)

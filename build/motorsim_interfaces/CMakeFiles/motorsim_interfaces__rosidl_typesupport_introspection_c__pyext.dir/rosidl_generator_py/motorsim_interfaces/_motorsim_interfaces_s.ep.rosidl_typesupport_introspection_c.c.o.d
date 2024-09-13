@@ -222,4 +222,7 @@ CMakeFiles/motorsim_interfaces__rosidl_typesupport_introspection_c__pyext.dir/ro
  /home/kireiji/RoboticsDev_ws/build/motorsim_interfaces/rosidl_generator_c/motorsim_interfaces/srv/detail/motor_spawn__struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
- /home/kireiji/RoboticsDev_ws/build/motorsim_interfaces/rosidl_generator_c/motorsim_interfaces/srv/detail/motor_spawn__functions.h
+ /home/kireiji/RoboticsDev_ws/build/motorsim_interfaces/rosidl_generator_c/motorsim_interfaces/srv/detail/motor_spawn__functions.h \
+ /home/kireiji/RoboticsDev_ws/build/motorsim_interfaces/rosidl_generator_c/motorsim_interfaces/srv/detail/notify__type_support.h \
+ /home/kireiji/RoboticsDev_ws/build/motorsim_interfaces/rosidl_generator_c/motorsim_interfaces/srv/detail/notify__struct.h \
+ /home/kireiji/RoboticsDev_ws/build/motorsim_interfaces/rosidl_generator_c/motorsim_interfaces/srv/detail/notify__functions.h

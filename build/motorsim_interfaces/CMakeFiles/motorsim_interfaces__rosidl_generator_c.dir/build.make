@@ -83,6 +83,7 @@ rosidl_generator_c/motorsim_interfaces/srv/motor_spawn.h: /opt/ros/humble/share/
 rosidl_generator_c/motorsim_interfaces/srv/motor_spawn.h: /opt/ros/humble/share/rosidl_generator_c/resource/msg__type_support.h.em
 rosidl_generator_c/motorsim_interfaces/srv/motor_spawn.h: /opt/ros/humble/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/motorsim_interfaces/srv/motor_spawn.h: rosidl_adapter/motorsim_interfaces/srv/MotorSpawn.idl
+rosidl_generator_c/motorsim_interfaces/srv/motor_spawn.h: rosidl_adapter/motorsim_interfaces/srv/Notify.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kireiji/RoboticsDev_ws/build/motorsim_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
 	/usr/local/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/kireiji/RoboticsDev_ws/build/motorsim_interfaces/rosidl_generator_c__arguments.json
 
@@ -95,8 +96,23 @@ rosidl_generator_c/motorsim_interfaces/srv/detail/motor_spawn__struct.h: rosidl_
 rosidl_generator_c/motorsim_interfaces/srv/detail/motor_spawn__type_support.h: rosidl_generator_c/motorsim_interfaces/srv/motor_spawn.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/motorsim_interfaces/srv/detail/motor_spawn__type_support.h
 
+rosidl_generator_c/motorsim_interfaces/srv/notify.h: rosidl_generator_c/motorsim_interfaces/srv/motor_spawn.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/motorsim_interfaces/srv/notify.h
+
+rosidl_generator_c/motorsim_interfaces/srv/detail/notify__functions.h: rosidl_generator_c/motorsim_interfaces/srv/motor_spawn.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/motorsim_interfaces/srv/detail/notify__functions.h
+
+rosidl_generator_c/motorsim_interfaces/srv/detail/notify__struct.h: rosidl_generator_c/motorsim_interfaces/srv/motor_spawn.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/motorsim_interfaces/srv/detail/notify__struct.h
+
+rosidl_generator_c/motorsim_interfaces/srv/detail/notify__type_support.h: rosidl_generator_c/motorsim_interfaces/srv/motor_spawn.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/motorsim_interfaces/srv/detail/notify__type_support.h
+
 rosidl_generator_c/motorsim_interfaces/srv/detail/motor_spawn__functions.c: rosidl_generator_c/motorsim_interfaces/srv/motor_spawn.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/motorsim_interfaces/srv/detail/motor_spawn__functions.c
+
+rosidl_generator_c/motorsim_interfaces/srv/detail/notify__functions.c: rosidl_generator_c/motorsim_interfaces/srv/motor_spawn.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/motorsim_interfaces/srv/detail/notify__functions.c
 
 CMakeFiles/motorsim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motorsim_interfaces/srv/detail/motor_spawn__functions.c.o: CMakeFiles/motorsim_interfaces__rosidl_generator_c.dir/flags.make
 CMakeFiles/motorsim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motorsim_interfaces/srv/detail/motor_spawn__functions.c.o: rosidl_generator_c/motorsim_interfaces/srv/detail/motor_spawn__functions.c
@@ -112,19 +128,35 @@ CMakeFiles/motorsim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motors
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motorsim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motorsim_interfaces/srv/detail/motor_spawn__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kireiji/RoboticsDev_ws/build/motorsim_interfaces/rosidl_generator_c/motorsim_interfaces/srv/detail/motor_spawn__functions.c -o CMakeFiles/motorsim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motorsim_interfaces/srv/detail/motor_spawn__functions.c.s
 
+CMakeFiles/motorsim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motorsim_interfaces/srv/detail/notify__functions.c.o: CMakeFiles/motorsim_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/motorsim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motorsim_interfaces/srv/detail/notify__functions.c.o: rosidl_generator_c/motorsim_interfaces/srv/detail/notify__functions.c
+CMakeFiles/motorsim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motorsim_interfaces/srv/detail/notify__functions.c.o: CMakeFiles/motorsim_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kireiji/RoboticsDev_ws/build/motorsim_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/motorsim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motorsim_interfaces/srv/detail/notify__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/motorsim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motorsim_interfaces/srv/detail/notify__functions.c.o -MF CMakeFiles/motorsim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motorsim_interfaces/srv/detail/notify__functions.c.o.d -o CMakeFiles/motorsim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motorsim_interfaces/srv/detail/notify__functions.c.o -c /home/kireiji/RoboticsDev_ws/build/motorsim_interfaces/rosidl_generator_c/motorsim_interfaces/srv/detail/notify__functions.c
+
+CMakeFiles/motorsim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motorsim_interfaces/srv/detail/notify__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motorsim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motorsim_interfaces/srv/detail/notify__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kireiji/RoboticsDev_ws/build/motorsim_interfaces/rosidl_generator_c/motorsim_interfaces/srv/detail/notify__functions.c > CMakeFiles/motorsim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motorsim_interfaces/srv/detail/notify__functions.c.i
+
+CMakeFiles/motorsim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motorsim_interfaces/srv/detail/notify__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motorsim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motorsim_interfaces/srv/detail/notify__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kireiji/RoboticsDev_ws/build/motorsim_interfaces/rosidl_generator_c/motorsim_interfaces/srv/detail/notify__functions.c -o CMakeFiles/motorsim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motorsim_interfaces/srv/detail/notify__functions.c.s
+
 # Object files for target motorsim_interfaces__rosidl_generator_c
 motorsim_interfaces__rosidl_generator_c_OBJECTS = \
-"CMakeFiles/motorsim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motorsim_interfaces/srv/detail/motor_spawn__functions.c.o"
+"CMakeFiles/motorsim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motorsim_interfaces/srv/detail/motor_spawn__functions.c.o" \
+"CMakeFiles/motorsim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motorsim_interfaces/srv/detail/notify__functions.c.o"
 
 # External object files for target motorsim_interfaces__rosidl_generator_c
 motorsim_interfaces__rosidl_generator_c_EXTERNAL_OBJECTS =
 
 libmotorsim_interfaces__rosidl_generator_c.so: CMakeFiles/motorsim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motorsim_interfaces/srv/detail/motor_spawn__functions.c.o
+libmotorsim_interfaces__rosidl_generator_c.so: CMakeFiles/motorsim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motorsim_interfaces/srv/detail/notify__functions.c.o
 libmotorsim_interfaces__rosidl_generator_c.so: CMakeFiles/motorsim_interfaces__rosidl_generator_c.dir/build.make
 libmotorsim_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libmotorsim_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
 libmotorsim_interfaces__rosidl_generator_c.so: CMakeFiles/motorsim_interfaces__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kireiji/RoboticsDev_ws/build/motorsim_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libmotorsim_interfaces__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kireiji/RoboticsDev_ws/build/motorsim_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libmotorsim_interfaces__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/motorsim_interfaces__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -139,7 +171,12 @@ CMakeFiles/motorsim_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_
 CMakeFiles/motorsim_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/motorsim_interfaces/srv/detail/motor_spawn__functions.h
 CMakeFiles/motorsim_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/motorsim_interfaces/srv/detail/motor_spawn__struct.h
 CMakeFiles/motorsim_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/motorsim_interfaces/srv/detail/motor_spawn__type_support.h
+CMakeFiles/motorsim_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/motorsim_interfaces/srv/detail/notify__functions.c
+CMakeFiles/motorsim_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/motorsim_interfaces/srv/detail/notify__functions.h
+CMakeFiles/motorsim_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/motorsim_interfaces/srv/detail/notify__struct.h
+CMakeFiles/motorsim_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/motorsim_interfaces/srv/detail/notify__type_support.h
 CMakeFiles/motorsim_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/motorsim_interfaces/srv/motor_spawn.h
+CMakeFiles/motorsim_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/motorsim_interfaces/srv/notify.h
 	cd /home/kireiji/RoboticsDev_ws/build/motorsim_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kireiji/RoboticsDev_ws/src/motorsim_interfaces /home/kireiji/RoboticsDev_ws/src/motorsim_interfaces /home/kireiji/RoboticsDev_ws/build/motorsim_interfaces /home/kireiji/RoboticsDev_ws/build/motorsim_interfaces /home/kireiji/RoboticsDev_ws/build/motorsim_interfaces/CMakeFiles/motorsim_interfaces__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/motorsim_interfaces__rosidl_generator_c.dir/depend
 

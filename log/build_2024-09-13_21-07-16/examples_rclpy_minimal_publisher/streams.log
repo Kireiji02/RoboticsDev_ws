@@ -1,0 +1,23 @@
+[2.833s] Invoking command in '/home/kireiji/RoboticsDev_ws/src/examples/rclpy/topics/minimal_publisher': PYTHONPATH=/home/kireiji/RoboticsDev_ws/build/examples_rclpy_minimal_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/kireiji/RoboticsDev_ws/build/examples_rclpy_minimal_publisher/build install --record /home/kireiji/RoboticsDev_ws/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed install_data
+[3.186s] running egg_info
+[3.187s] writing ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/PKG-INFO
+[3.187s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/dependency_links.txt
+[3.188s] writing entry points to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/entry_points.txt
+[3.188s] writing requirements to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/requires.txt
+[3.188s] writing top-level names to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/top_level.txt
+[3.190s] reading manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[3.191s] writing manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[3.191s] running build
+[3.191s] running build_py
+[3.191s] running install
+[3.191s] running install_lib
+[3.192s] running install_data
+[3.193s] running install_egg_info
+[3.194s] removing '/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher-0.15.2-py3.10.egg-info' (and everything under it)
+[3.195s] Copying ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info to /home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher-0.15.2-py3.10.egg-info
+[3.195s] running install_scripts
+[3.222s] Installing publisher_local_function script to /home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[3.222s] Installing publisher_member_function script to /home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[3.222s] Installing publisher_old_school script to /home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[3.223s] writing list of installed files to '/home/kireiji/RoboticsDev_ws/build/examples_rclpy_minimal_publisher/install.log'
+[3.319s] Invoked command in '/home/kireiji/RoboticsDev_ws/src/examples/rclpy/topics/minimal_publisher' returned '0': PYTHONPATH=/home/kireiji/RoboticsDev_ws/build/examples_rclpy_minimal_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/kireiji/RoboticsDev_ws/build/examples_rclpy_minimal_publisher/build install --record /home/kireiji/RoboticsDev_ws/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed install_data

@@ -17,6 +17,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/kireiji/RoboticsDev_ws/build/motorsim_interfaces/rosidl_generator_py/motorsim_interfaces/srv/__init__.py" "/home/kireiji/RoboticsDev_ws/build/motorsim_interfaces/rosidl_generator_py/motorsim_interfaces/_motorsim_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/kireiji/RoboticsDev_ws/build/motorsim_interfaces/rosidl_generator_py/motorsim_interfaces/srv/_motor_spawn.py" "/home/kireiji/RoboticsDev_ws/build/motorsim_interfaces/rosidl_generator_py/motorsim_interfaces/_motorsim_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/kireiji/RoboticsDev_ws/build/motorsim_interfaces/rosidl_generator_py/motorsim_interfaces/srv/_motor_spawn_s.c" "/home/kireiji/RoboticsDev_ws/build/motorsim_interfaces/rosidl_generator_py/motorsim_interfaces/_motorsim_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/kireiji/RoboticsDev_ws/build/motorsim_interfaces/rosidl_generator_py/motorsim_interfaces/srv/_notify.py" "/home/kireiji/RoboticsDev_ws/build/motorsim_interfaces/rosidl_generator_py/motorsim_interfaces/_motorsim_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/kireiji/RoboticsDev_ws/build/motorsim_interfaces/rosidl_generator_py/motorsim_interfaces/srv/_notify_s.c" "/home/kireiji/RoboticsDev_ws/build/motorsim_interfaces/rosidl_generator_py/motorsim_interfaces/_motorsim_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

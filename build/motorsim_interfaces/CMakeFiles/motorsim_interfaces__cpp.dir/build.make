@@ -70,6 +70,10 @@ CMakeFiles/motorsim_interfaces__cpp: rosidl_generator_cpp/motorsim_interfaces/sr
 CMakeFiles/motorsim_interfaces__cpp: rosidl_generator_cpp/motorsim_interfaces/srv/detail/motor_spawn__builder.hpp
 CMakeFiles/motorsim_interfaces__cpp: rosidl_generator_cpp/motorsim_interfaces/srv/detail/motor_spawn__struct.hpp
 CMakeFiles/motorsim_interfaces__cpp: rosidl_generator_cpp/motorsim_interfaces/srv/detail/motor_spawn__traits.hpp
+CMakeFiles/motorsim_interfaces__cpp: rosidl_generator_cpp/motorsim_interfaces/srv/notify.hpp
+CMakeFiles/motorsim_interfaces__cpp: rosidl_generator_cpp/motorsim_interfaces/srv/detail/notify__builder.hpp
+CMakeFiles/motorsim_interfaces__cpp: rosidl_generator_cpp/motorsim_interfaces/srv/detail/notify__struct.hpp
+CMakeFiles/motorsim_interfaces__cpp: rosidl_generator_cpp/motorsim_interfaces/srv/detail/notify__traits.hpp
 
 rosidl_generator_cpp/motorsim_interfaces/srv/motor_spawn.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
 rosidl_generator_cpp/motorsim_interfaces/srv/motor_spawn.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
@@ -87,6 +91,7 @@ rosidl_generator_cpp/motorsim_interfaces/srv/motor_spawn.hpp: /opt/ros/humble/sh
 rosidl_generator_cpp/motorsim_interfaces/srv/motor_spawn.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/motorsim_interfaces/srv/motor_spawn.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/motorsim_interfaces/srv/motor_spawn.hpp: rosidl_adapter/motorsim_interfaces/srv/MotorSpawn.idl
+rosidl_generator_cpp/motorsim_interfaces/srv/motor_spawn.hpp: rosidl_adapter/motorsim_interfaces/srv/Notify.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kireiji/RoboticsDev_ws/build/motorsim_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/local/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/kireiji/RoboticsDev_ws/build/motorsim_interfaces/rosidl_generator_cpp__arguments.json
 
@@ -99,11 +104,27 @@ rosidl_generator_cpp/motorsim_interfaces/srv/detail/motor_spawn__struct.hpp: ros
 rosidl_generator_cpp/motorsim_interfaces/srv/detail/motor_spawn__traits.hpp: rosidl_generator_cpp/motorsim_interfaces/srv/motor_spawn.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/motorsim_interfaces/srv/detail/motor_spawn__traits.hpp
 
+rosidl_generator_cpp/motorsim_interfaces/srv/notify.hpp: rosidl_generator_cpp/motorsim_interfaces/srv/motor_spawn.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/motorsim_interfaces/srv/notify.hpp
+
+rosidl_generator_cpp/motorsim_interfaces/srv/detail/notify__builder.hpp: rosidl_generator_cpp/motorsim_interfaces/srv/motor_spawn.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/motorsim_interfaces/srv/detail/notify__builder.hpp
+
+rosidl_generator_cpp/motorsim_interfaces/srv/detail/notify__struct.hpp: rosidl_generator_cpp/motorsim_interfaces/srv/motor_spawn.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/motorsim_interfaces/srv/detail/notify__struct.hpp
+
+rosidl_generator_cpp/motorsim_interfaces/srv/detail/notify__traits.hpp: rosidl_generator_cpp/motorsim_interfaces/srv/motor_spawn.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/motorsim_interfaces/srv/detail/notify__traits.hpp
+
 motorsim_interfaces__cpp: CMakeFiles/motorsim_interfaces__cpp
 motorsim_interfaces__cpp: rosidl_generator_cpp/motorsim_interfaces/srv/detail/motor_spawn__builder.hpp
 motorsim_interfaces__cpp: rosidl_generator_cpp/motorsim_interfaces/srv/detail/motor_spawn__struct.hpp
 motorsim_interfaces__cpp: rosidl_generator_cpp/motorsim_interfaces/srv/detail/motor_spawn__traits.hpp
+motorsim_interfaces__cpp: rosidl_generator_cpp/motorsim_interfaces/srv/detail/notify__builder.hpp
+motorsim_interfaces__cpp: rosidl_generator_cpp/motorsim_interfaces/srv/detail/notify__struct.hpp
+motorsim_interfaces__cpp: rosidl_generator_cpp/motorsim_interfaces/srv/detail/notify__traits.hpp
 motorsim_interfaces__cpp: rosidl_generator_cpp/motorsim_interfaces/srv/motor_spawn.hpp
+motorsim_interfaces__cpp: rosidl_generator_cpp/motorsim_interfaces/srv/notify.hpp
 motorsim_interfaces__cpp: CMakeFiles/motorsim_interfaces__cpp.dir/build.make
 .PHONY : motorsim_interfaces__cpp
 
