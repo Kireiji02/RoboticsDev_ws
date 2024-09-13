@@ -41,7 +41,7 @@ class ControllerNode(Node):
         self.pos_feedback = 0.0
         self.pos_target = 0.0
 
-        self.send_notification = True
+        # self.send_notification = None
       
         # Add callback for parameter changes
         self.add_on_set_parameters_callback(self.set_param_callback)
@@ -68,8 +68,8 @@ class ControllerNode(Node):
         # If all parameters are known, return success
         return SetParametersResult(successful=True)
     
-    def flag_callback(self,msg):
-        self.send_notification = msg.data
+    # def flag_callback(self,msg):
+    #     self.send_notification = msg.data
 
     def call_notify_server(self,trig):
         while not self.call_notify_client.wait_for_service(1.0):
@@ -98,7 +98,7 @@ class ControllerNode(Node):
         self.get_logger().info(f'Pos: {self.pos_feedback} rad \n {error} {self.pos_target}')
         
         if error <= 0.01:
-            self.call_notify_server(self.send_notification)
+            self.call_notify_server(True)
 
 def main(args=None):
     rclpy.init(args=args)
