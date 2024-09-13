@@ -2,6 +2,7 @@
 
 from motorsim.dummy_module import dummy_function, dummy_var
 import rclpy
+import yaml
 from rclpy.node import Node
 from motorsim.dc_motor_model import DCMotorModel
 from motorsim_interfaces.srv import Notify
@@ -11,10 +12,12 @@ class SchedulerNode(Node):
     def __init__(self):
         super().__init__('scheduler_node')
 
+        self.i = 0
         self.freq = 100.0
+        self.target_pos = self.loadYAML()
         
-        self.declare_parameter('target_pos',80.0) # Array 
-        self.target_pos = self.get_parameter('target_pos').value
+        # self.declare_parameter('target_pos',80.0) # Array 
+        # self.target_pos = self.get_parameter('target_pos').value
 
 
         self.flag_pub_ = self.create_publisher(Bool, 'flag_seq',10)
@@ -24,12 +27,17 @@ class SchedulerNode(Node):
         self.timer_ = self.create_timer(1.0/self.freq,self.timer_callback)
 
         self.recieve_notification = None
+        
+    def loadYAML(self):
+        with open('/home/kireiji/RoboticsDev_ws/src/motorsim/via_point/via_point.yaml', 'r') as file:
+            data = yaml.safe_load(file)
+            return data['targets']
     
     def callback_notify_server(self,request, respond):
         self.recieve_notification = request.trig
-
         if self.recieve_notification == True:
-            self.target_pos += 30.0 # Need Changes
+            self.i += 1
+            self.target_pos[self.i]
             self.recieve_notification = False
         
         send_to_controller = Bool()
@@ -42,7 +50,7 @@ class SchedulerNode(Node):
     def timer_callback(self):
 
         target = Float64()
-        target.data = self.target_pos
+        target.data = self.target_pos[self.i]
         self.target_pub_.publish(target)
 
 
