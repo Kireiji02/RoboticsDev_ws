@@ -28,6 +28,7 @@
 /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/motorsim/pid_controller.py
 /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/motorsim/dc_motor_model.py
 /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/motorsim/dummy_module.py
+/home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/launch/notify_PID.launch.py
 /home/kireiji/RoboticsDev_ws/install/motorsim/share/ament_index/resource_index/package_run_dependencies/motorsim
 /home/kireiji/RoboticsDev_ws/install/motorsim/share/ament_index/resource_index/parent_prefix_path/motorsim
 /home/kireiji/RoboticsDev_ws/install/motorsim/share/motorsim/environment/ament_prefix_path.sh

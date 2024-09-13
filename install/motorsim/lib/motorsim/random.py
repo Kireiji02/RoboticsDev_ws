@@ -6,7 +6,7 @@ with  open('/home/kireiji/RoboticsDev_ws/src/motorsim/via_point/via_point.yaml',
     yaml.dump({},file)
     data = {'targets': []}
 
-for i in range(5):
+for i in range(20):
     rand = random2.uniform(0.0, 100.0)
     data['targets'].append(rand)
     

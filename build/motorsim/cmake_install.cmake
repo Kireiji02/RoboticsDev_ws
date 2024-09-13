@@ -102,6 +102,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/motorsim" TYPE DIRECTORY FILES
     "/home/kireiji/RoboticsDev_ws/src/motorsim/scripts"
     "/home/kireiji/RoboticsDev_ws/src/motorsim/motorsim"
+    "/home/kireiji/RoboticsDev_ws/src/motorsim/launch"
     )
 endif()
 

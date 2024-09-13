@@ -88,7 +88,7 @@ class ControllerNode(Node):
         # msg.data = self.pid.compute(error)
         msg.data = error
         self.signal_publisher.publish(msg)
-        self.get_logger().info(f'Pos: {self.pos_feedback} rad \n {error} {self.pos_target}')
+        self.get_logger().info(f'\n Pos: {self.pos_feedback} rad \n Error: {error} rad \n Current target: {self.pos_target} rad')
         
         if -0.01 <= error <= 0.01 and self.pos_feedback != 0:
             self.call_notify_server(True)

@@ -56,6 +56,7 @@ install(DIRECTORY
   # add directories here
   scripts
   motorsim
+  launch
   DESTINATION share/${PROJECT_NAME})
 
 ament_package()
