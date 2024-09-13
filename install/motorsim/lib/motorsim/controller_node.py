@@ -19,8 +19,10 @@ class ControllerNode(Node):
 
         self.freq = 100.0
 
+        
 
         self.call_notify_client = self.create_client(Notify, 'notify')
+
         self.create_subscription(Bool, 'flag_seq',self.flag_callback,10)
         self.create_subscription(Float64, "target", self.target_callback, 10)
         # self.create_subscription(Twist, "motor_speed", self.fb_callback, 10)
@@ -94,7 +96,7 @@ class ControllerNode(Node):
         msg.data = error
         self.signal_publisher.publish(msg)
         self.get_logger().info(f'Pos: {self.pos_feedback} rad \n {error} {self.pos_target}')
-
+        
         if error <= 0.01:
             self.call_notify_server(self.send_notification)
 

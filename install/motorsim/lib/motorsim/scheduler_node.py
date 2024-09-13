@@ -31,20 +31,20 @@ class SchedulerNode(Node):
         if self.recieve_notification == True:
             self.target_pos += 30.0 # Need Changes
             self.recieve_notification = False
-            
-        target = Float64()
-        target.data = self.target_pos
-        self.target_pub_.publish(target)
-            
+        
         send_to_controller = Bool()
-        send_to_controller.data = False
+        send_to_controller.data = self.recieve_notification
         self.flag_pub_.publish(send_to_controller)
         
         return respond
 
     
     def timer_callback(self):
-        pass
+
+        target = Float64()
+        target.data = self.target_pos
+        self.target_pub_.publish(target)
+
 
 def main(args=None):
     rclpy.init(args=args)

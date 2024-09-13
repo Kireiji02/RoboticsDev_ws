@@ -15,11 +15,11 @@ class ControllerNode(Node):
         self.declare_parameter('Kp', 0.0)
         self.declare_parameter('Ki', 0.0)
         self.declare_parameter('Kd', 0.0)
-        self.declare_parameter('U_max', 1000000.0)
+        self.declare_parameter('U_max', 10000.0)
 
         self.freq = 100.0
 
-        
+
 
         self.call_notify_client = self.create_client(Notify, 'notify')
 
