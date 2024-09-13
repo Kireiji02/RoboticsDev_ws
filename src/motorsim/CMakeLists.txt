@@ -32,6 +32,7 @@ install(PROGRAMS
   scripts/motorsim_node.py
   scripts/controller_node.py
   scripts/encoder_node.py
+  scripts/scheduler_node.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
