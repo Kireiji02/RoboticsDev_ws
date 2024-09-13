@@ -1,0 +1,96 @@
+[0.038s] Invoking command in '/home/kireiji/RoboticsDev_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kireiji/RoboticsDev_ws/install/launch_testing_examples:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_pointcloud_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_subscriber:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_service:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_guard_conditions:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_executors:/home/kireiji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/kireiji/RoboticsDev_ws/src/examples/rclcpp/topics/minimal_publisher -DCMAKE_INSTALL_PREFIX=/home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_publisher
+[0.926s] -- The C compiler identification is GNU 11.4.0
+[0.926s] -- The CXX compiler identification is GNU 11.4.0
+[0.926s] -- Detecting C compiler ABI info
+[0.926s] -- Detecting C compiler ABI info - done
+[0.927s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.927s] -- Detecting C compile features
+[0.927s] -- Detecting C compile features - done
+[0.927s] -- Detecting CXX compiler ABI info
+[0.927s] -- Detecting CXX compiler ABI info - done
+[0.927s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.927s] -- Detecting CXX compile features
+[0.927s] -- Detecting CXX compile features - done
+[0.927s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.448s] -- Found Python3: /usr/local/bin/python3 (found version "3.10.0") found components: Interpreter 
+[1.642s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.696s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.705s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.712s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.731s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.752s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.809s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.813s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.920s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.958s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.007s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.016s] -- Looking for pthread.h
+[2.120s] -- Looking for pthread.h - found
+[2.121s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.233s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.234s] -- Found Threads: TRUE  
+[2.316s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.471s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.473s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.475s] -- Configured cppcheck include dirs: 
+[2.475s] -- Configured cppcheck exclude dirs and/or files: 
+[2.477s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.477s] -- Configured cpplint exclude dirs and/or files: 
+[2.478s] -- Added test 'lint_cmake' to check CMake code style
+[2.480s] -- Added test 'uncrustify' to check C / C++ code style
+[2.480s] -- Configured uncrustify additional arguments: 
+[2.484s] -- Added test 'xmllint' to check XML markup files
+[2.485s] -- Configuring done
+[2.508s] -- Generating done
+[2.511s] -- Build files have been written to: /home/kireiji/RoboticsDev_ws/build/examples_rclcpp_minimal_publisher
+[2.545s] Invoked command in '/home/kireiji/RoboticsDev_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kireiji/RoboticsDev_ws/install/launch_testing_examples:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_pointcloud_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_subscriber:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_service:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_guard_conditions:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_executors:/home/kireiji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/kireiji/RoboticsDev_ws/src/examples/rclcpp/topics/minimal_publisher -DCMAKE_INSTALL_PREFIX=/home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_publisher
+[2.546s] Invoking command in '/home/kireiji/RoboticsDev_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kireiji/RoboticsDev_ws/install/launch_testing_examples:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_pointcloud_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_subscriber:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_service:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_guard_conditions:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_executors:/home/kireiji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/kireiji/RoboticsDev_ws/build/examples_rclcpp_minimal_publisher -- -j16 -l16
+[2.611s] [  8%] [32mBuilding CXX object CMakeFiles/publisher_member_function.dir/member_function.cpp.o[0m
+[2.612s] [ 16%] [32mBuilding CXX object CMakeFiles/publisher_lambda.dir/lambda.cpp.o[0m
+[2.613s] [ 33%] [32mBuilding CXX object CMakeFiles/publisher_not_composable.dir/not_composable.cpp.o[0m
+[2.613s] [ 33%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[2.615s] [ 41%] [32mBuilding CXX object CMakeFiles/publisher_wait_for_all_acked.dir/member_function_with_wait_for_all_acked.cpp.o[0m
+[2.620s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[22.845s] [ 58%] [32m[1mLinking CXX executable publisher_member_function[0m
+[23.460s] [ 58%] Built target publisher_member_function
+[31.001s] [ 66%] [32m[1mLinking CXX executable publisher_member_function_with_unique_network_flow_endpoints[0m
+[32.143s] [ 66%] Built target publisher_member_function_with_unique_network_flow_endpoints
+[39.027s] [ 75%] [32m[1mLinking CXX executable publisher_member_function_with_type_adapter[0m
+[39.752s] [ 75%] Built target publisher_member_function_with_type_adapter
+[40.272s] [ 83%] [32m[1mLinking CXX executable publisher_not_composable[0m
+[40.910s] [ 83%] Built target publisher_not_composable
+[42.322s] [ 91%] [32m[1mLinking CXX executable publisher_lambda[0m
+[42.603s] [100%] [32m[1mLinking CXX executable publisher_wait_for_all_acked[0m
+[43.377s] [100%] Built target publisher_wait_for_all_acked
+[44.046s] [100%] Built target publisher_lambda
+[44.863s] Invoked command in '/home/kireiji/RoboticsDev_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kireiji/RoboticsDev_ws/install/launch_testing_examples:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_pointcloud_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_subscriber:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_service:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_guard_conditions:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_executors:/home/kireiji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/kireiji/RoboticsDev_ws/build/examples_rclcpp_minimal_publisher -- -j16 -l16
+[45.109s] Invoking command in '/home/kireiji/RoboticsDev_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kireiji/RoboticsDev_ws/install/launch_testing_examples:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_pointcloud_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_subscriber:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_service:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_guard_conditions:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_executors:/home/kireiji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/kireiji/RoboticsDev_ws/build/examples_rclcpp_minimal_publisher
+[47.141s] -- Install configuration: ""
+[47.142s] -- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda
+[47.142s] -- Set runtime path of "/home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda" to ""
+[47.142s] -- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function
+[47.142s] -- Set runtime path of "/home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function" to ""
+[47.142s] -- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_type_adapter
+[47.142s] -- Set runtime path of "/home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_type_adapter" to ""
+[47.142s] -- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_unique_network_flow_endpoints
+[47.142s] -- Set runtime path of "/home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_unique_network_flow_endpoints" to ""
+[47.142s] -- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_wait_for_all_acked
+[47.142s] -- Set runtime path of "/home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_wait_for_all_acked" to ""
+[47.142s] -- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable
+[47.142s] -- Set runtime path of "/home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable" to ""
+[47.142s] -- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_publisher
+[47.142s] -- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_publisher
+[47.143s] -- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.sh
+[47.143s] -- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.dsv
+[47.143s] -- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.sh
+[47.143s] -- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.dsv
+[47.143s] -- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.bash
+[47.143s] -- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.sh
+[47.143s] -- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.zsh
+[47.143s] -- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.dsv
+[47.143s] -- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.dsv
+[47.143s] -- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/packages/examples_rclcpp_minimal_publisher
+[47.143s] -- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig.cmake
+[47.143s] -- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig-version.cmake
+[47.143s] -- Installing: /home/kireiji/RoboticsDev_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.xml
+[47.268s] Invoked command in '/home/kireiji/RoboticsDev_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kireiji/RoboticsDev_ws/install/launch_testing_examples:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_pointcloud_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_subscriber:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_service:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_publisher:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_guard_conditions:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_executors:/home/kireiji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/kireiji/RoboticsDev_ws/build/examples_rclcpp_minimal_publisher

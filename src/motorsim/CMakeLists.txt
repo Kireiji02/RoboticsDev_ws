@@ -31,6 +31,7 @@ install(PROGRAMS
   scripts/dc_motor_node.py
   scripts/motorsim_node.py
   scripts/controller_node.py
+  scripts/encoder_node.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

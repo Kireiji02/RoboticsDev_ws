@@ -8,9 +8,9 @@ from geometry_msgs.msg import Twist
 from std_msgs.msg import Int64 , Float64
 
 
-class DummyNode(Node):
+class EncoderNode(Node):
     def __init__(self):
-        super().__init__('dummy_node')
+        super().__init__('encoder_node')
         self.freq = 100
 
         self.create_subscription(Twist, "motor_speed",self.fb_callback, 10)
@@ -30,7 +30,7 @@ class DummyNode(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-    node = DummyNode()
+    node = EncoderNode()
     rclpy.spin(node)
     node.destroy_node()
     rclpy.shutdown()
