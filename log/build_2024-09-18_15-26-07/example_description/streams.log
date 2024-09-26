@@ -1,0 +1,95 @@
+[0.007s] Invoking command in '/home/kireiji/RoboticsDev_ws/build/example_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_guard_conditions:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_executors:/home/kireiji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/kireiji/RoboticsDev_ws/src/example_description -DCMAKE_INSTALL_PREFIX=/home/kireiji/RoboticsDev_ws/install/example_description
+[0.041s] -- The C compiler identification is GNU 11.4.0
+[0.073s] -- The CXX compiler identification is GNU 11.4.0
+[0.078s] -- Detecting C compiler ABI info
+[0.119s] -- Detecting C compiler ABI info - done
+[0.123s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.124s] -- Detecting C compile features
+[0.124s] -- Detecting C compile features - done
+[0.126s] -- Detecting CXX compiler ABI info
+[0.173s] -- Detecting CXX compiler ABI info - done
+[0.178s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.178s] -- Detecting CXX compile features
+[0.178s] -- Detecting CXX compile features - done
+[0.180s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.504s] -- Found Python3: /usr/local/bin/python3 (found version "3.10.0") found components: Interpreter 
+[0.565s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.590s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.593s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.597s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.605s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.614s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.640s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.642s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.691s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.707s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.729s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.734s] -- Looking for pthread.h
+[0.777s] -- Looking for pthread.h - found
+[0.777s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.821s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.821s] -- Found Threads: TRUE  
+[0.852s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[0.980s] -- Configuring done
+[0.985s] -- Generating done
+[0.986s] -- Build files have been written to: /home/kireiji/RoboticsDev_ws/build/example_description
+[0.992s] Invoked command in '/home/kireiji/RoboticsDev_ws/build/example_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_guard_conditions:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_executors:/home/kireiji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/kireiji/RoboticsDev_ws/src/example_description -DCMAKE_INSTALL_PREFIX=/home/kireiji/RoboticsDev_ws/install/example_description
+[0.993s] Invoking command in '/home/kireiji/RoboticsDev_ws/build/example_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_guard_conditions:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_executors:/home/kireiji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/kireiji/RoboticsDev_ws/build/example_description -- -j16 -l16
+[1.022s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node_test.dir/src/cpp_node.cpp.o[0m
+[1.026s] [ 50%] Built target ament_cmake_python_copy_example_description
+[1.182s] running egg_info
+[1.182s] creating example_description.egg-info
+[1.182s] writing manifest file 'example_description.egg-info/SOURCES.txt'
+[1.184s] writing manifest file 'example_description.egg-info/SOURCES.txt'
+[1.189s] [100%] [32m[1mLinking CXX executable cpp_node_test[0m
+[1.200s] [100%] Built target ament_cmake_python_build_example_description_egg
+[1.246s] [100%] Built target cpp_node_test
+[1.253s] Invoked command in '/home/kireiji/RoboticsDev_ws/build/example_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_guard_conditions:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_executors:/home/kireiji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/kireiji/RoboticsDev_ws/build/example_description -- -j16 -l16
+[1.274s] Invoking command in '/home/kireiji/RoboticsDev_ws/build/example_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_guard_conditions:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_executors:/home/kireiji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/kireiji/RoboticsDev_ws/build/example_description
+[1.278s] -- Install configuration: ""
+[1.278s] -- Installing: /home/kireiji/RoboticsDev_ws/install/example_description/share/example_description/environment/pythonpath.sh
+[1.278s] -- Installing: /home/kireiji/RoboticsDev_ws/install/example_description/share/example_description/environment/pythonpath.dsv
+[1.278s] -- Installing: /home/kireiji/RoboticsDev_ws/install/example_description/lib/python3.10/site-packages/example_description-0.0.0-py3.10.egg-info
+[1.278s] -- Installing: /home/kireiji/RoboticsDev_ws/install/example_description/lib/python3.10/site-packages/example_description-0.0.0-py3.10.egg-info/PKG-INFO
+[1.278s] -- Installing: /home/kireiji/RoboticsDev_ws/install/example_description/lib/python3.10/site-packages/example_description-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.278s] -- Installing: /home/kireiji/RoboticsDev_ws/install/example_description/lib/python3.10/site-packages/example_description-0.0.0-py3.10.egg-info/top_level.txt
+[1.278s] -- Installing: /home/kireiji/RoboticsDev_ws/install/example_description/lib/python3.10/site-packages/example_description-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.278s] -- Installing: /home/kireiji/RoboticsDev_ws/install/example_description/lib/python3.10/site-packages/example_description
+[1.278s] -- Installing: /home/kireiji/RoboticsDev_ws/install/example_description/lib/python3.10/site-packages/example_description/__init__.py
+[1.278s] -- Installing: /home/kireiji/RoboticsDev_ws/install/example_description/lib/python3.10/site-packages/example_description/dummy_module.py
+[1.303s] Listing '/home/kireiji/RoboticsDev_ws/install/example_description/lib/python3.10/site-packages/example_description'...
+[1.303s] Compiling '/home/kireiji/RoboticsDev_ws/install/example_description/lib/python3.10/site-packages/example_description/__init__.py'...
+[1.303s] Compiling '/home/kireiji/RoboticsDev_ws/install/example_description/lib/python3.10/site-packages/example_description/dummy_module.py'...
+[1.306s] -- Installing: /home/kireiji/RoboticsDev_ws/install/example_description/lib/example_description/dummy_script.py
+[1.306s] -- Installing: /home/kireiji/RoboticsDev_ws/install/example_description/lib/example_description/cpp_node_test
+[1.306s] -- Set runtime path of "/home/kireiji/RoboticsDev_ws/install/example_description/lib/example_description/cpp_node_test" to ""
+[1.306s] -- Installing: /home/kireiji/RoboticsDev_ws/install/example_description/share/example_description/config
+[1.306s] -- Installing: /home/kireiji/RoboticsDev_ws/install/example_description/share/example_description/config/display.rviz
+[1.306s] -- Installing: /home/kireiji/RoboticsDev_ws/install/example_description/share/example_description/launch
+[1.306s] -- Installing: /home/kireiji/RoboticsDev_ws/install/example_description/share/example_description/launch/simple_display.launch.py
+[1.306s] -- Installing: /home/kireiji/RoboticsDev_ws/install/example_description/share/example_description/meshes
+[1.306s] -- Installing: /home/kireiji/RoboticsDev_ws/install/example_description/share/example_description/meshes/link_3.stl
+[1.306s] -- Installing: /home/kireiji/RoboticsDev_ws/install/example_description/share/example_description/meshes/link_2.stl
+[1.306s] -- Installing: /home/kireiji/RoboticsDev_ws/install/example_description/share/example_description/meshes/end_effector.stl
+[1.306s] -- Installing: /home/kireiji/RoboticsDev_ws/install/example_description/share/example_description/meshes/link_0.stl
+[1.306s] -- Installing: /home/kireiji/RoboticsDev_ws/install/example_description/share/example_description/meshes/link_1.stl
+[1.306s] -- Installing: /home/kireiji/RoboticsDev_ws/install/example_description/share/example_description/robot
+[1.306s] -- Installing: /home/kireiji/RoboticsDev_ws/install/example_description/share/example_description/robot/visual
+[1.306s] -- Installing: /home/kireiji/RoboticsDev_ws/install/example_description/share/example_description/robot/visual/my-robot.xacro
+[1.306s] -- Installing: /home/kireiji/RoboticsDev_ws/install/example_description/share/example_description/robot/visual/01-myfirst.urdf
+[1.306s] -- Installing: /home/kireiji/RoboticsDev_ws/install/example_description/share/ament_index/resource_index/package_run_dependencies/example_description
+[1.306s] -- Installing: /home/kireiji/RoboticsDev_ws/install/example_description/share/ament_index/resource_index/parent_prefix_path/example_description
+[1.307s] -- Installing: /home/kireiji/RoboticsDev_ws/install/example_description/share/example_description/environment/ament_prefix_path.sh
+[1.307s] -- Installing: /home/kireiji/RoboticsDev_ws/install/example_description/share/example_description/environment/ament_prefix_path.dsv
+[1.307s] -- Installing: /home/kireiji/RoboticsDev_ws/install/example_description/share/example_description/environment/path.sh
+[1.307s] -- Installing: /home/kireiji/RoboticsDev_ws/install/example_description/share/example_description/environment/path.dsv
+[1.307s] -- Installing: /home/kireiji/RoboticsDev_ws/install/example_description/share/example_description/local_setup.bash
+[1.307s] -- Installing: /home/kireiji/RoboticsDev_ws/install/example_description/share/example_description/local_setup.sh
+[1.307s] -- Installing: /home/kireiji/RoboticsDev_ws/install/example_description/share/example_description/local_setup.zsh
+[1.307s] -- Installing: /home/kireiji/RoboticsDev_ws/install/example_description/share/example_description/local_setup.dsv
+[1.307s] -- Installing: /home/kireiji/RoboticsDev_ws/install/example_description/share/example_description/package.dsv
+[1.307s] -- Installing: /home/kireiji/RoboticsDev_ws/install/example_description/share/ament_index/resource_index/packages/example_description
+[1.307s] -- Installing: /home/kireiji/RoboticsDev_ws/install/example_description/share/example_description/cmake/example_descriptionConfig.cmake
+[1.307s] -- Installing: /home/kireiji/RoboticsDev_ws/install/example_description/share/example_description/cmake/example_descriptionConfig-version.cmake
+[1.307s] -- Installing: /home/kireiji/RoboticsDev_ws/install/example_description/share/example_description/package.xml
+[1.309s] Invoked command in '/home/kireiji/RoboticsDev_ws/build/example_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_server:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_minimal_action_client:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_guard_conditions:/home/kireiji/RoboticsDev_ws/install/examples_rclpy_executors:/home/kireiji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/kireiji/RoboticsDev_ws/build/example_description

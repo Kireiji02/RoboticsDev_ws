@@ -1,0 +1,12 @@
+/home/kireiji/RoboticsDev_ws/build/lecture4/CMakeFiles/uninstall.dir
+/home/kireiji/RoboticsDev_ws/build/lecture4/CMakeFiles/lecture4_uninstall.dir
+/home/kireiji/RoboticsDev_ws/build/lecture4/CMakeFiles/ament_cmake_python_copy_lecture4.dir
+/home/kireiji/RoboticsDev_ws/build/lecture4/CMakeFiles/ament_cmake_python_build_lecture4_egg.dir
+/home/kireiji/RoboticsDev_ws/build/lecture4/CMakeFiles/cpp_node_test.dir
+/home/kireiji/RoboticsDev_ws/build/lecture4/CMakeFiles/test.dir
+/home/kireiji/RoboticsDev_ws/build/lecture4/CMakeFiles/edit_cache.dir
+/home/kireiji/RoboticsDev_ws/build/lecture4/CMakeFiles/rebuild_cache.dir
+/home/kireiji/RoboticsDev_ws/build/lecture4/CMakeFiles/list_install_components.dir
+/home/kireiji/RoboticsDev_ws/build/lecture4/CMakeFiles/install.dir
+/home/kireiji/RoboticsDev_ws/build/lecture4/CMakeFiles/install/local.dir
+/home/kireiji/RoboticsDev_ws/build/lecture4/CMakeFiles/install/strip.dir

@@ -175,10 +175,14 @@ class ControlerNode(Node):
                 vx = self.kp_d*dist
                 w = self.kp_theta*e_theta
                     
-            elif dist < 0.95:
-                vx = 20.0
-                w = 0.0
-                time.sleep(0.05)
+            if dist > 1.0:
+                if e_theta > math.pi:
+                    e_theta -= 2*math.pi
+                elif e_theta < -math.pi:
+                    e_theta += 2*math.pi
+                    
+                vx = self.kp_d*dist
+                w = self.kp_theta*e_theta
                 
             else:
                 vx = 0.0

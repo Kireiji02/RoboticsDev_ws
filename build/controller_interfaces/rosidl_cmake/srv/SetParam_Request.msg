@@ -1,2 +1,0 @@
-std_msgs/Float64 kp_linear
-std_msgs/Float64 kp_angular

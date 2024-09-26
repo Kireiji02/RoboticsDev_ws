@@ -1,7 +1,0 @@
-{
-  "package_name": "controller_interfaces",
-  "non_idl_tuples": [
-    "/home/kireiji/RoboticsDev_ws/src/controller_interfaces:srv/SetParam.srv",
-    "/home/kireiji/RoboticsDev_ws/src/controller_interfaces:srv/SetTarget.srv"
-  ]
-}

@@ -1,9 +1,0 @@
-setup.py
-motorsim_interfaces/__init__.py
-motorsim_interfaces.egg-info/PKG-INFO
-motorsim_interfaces.egg-info/SOURCES.txt
-motorsim_interfaces.egg-info/dependency_links.txt
-motorsim_interfaces.egg-info/top_level.txt
-motorsim_interfaces/srv/__init__.py
-motorsim_interfaces/srv/_motor_spawn.py
-motorsim_interfaces/srv/_notify.py
